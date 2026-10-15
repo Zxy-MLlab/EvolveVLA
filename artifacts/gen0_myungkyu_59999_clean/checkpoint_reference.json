@@ -1,0 +1,121 @@
+{
+  "candidate_name": "Myungkyu seed-0 59999",
+  "candidate_source": "Myungkyu/pi0_5_jax_robotwin_vanilla_b128_60k",
+  "candidate_revision": "37e10d7f4f49149e2ce5e08a77b07f228a84322f",
+  "warning": "This is an independently trained public reproduction, not the RoboTwin Team leaderboard artifact.",
+  "robotwin_commit": "ba0fd21ad21c336bedc7bd8eacd3e514860910e2",
+  "xpolicylab_commit": "c37109c500be67d0dea6b36bf7337bbd26e763cd",
+  "robotwin_root": "/root/autodl-tmp/EvolveVLA/robotwin_repo_ba0fd21",
+  "official_deploy_checkpoint_step": 59999,
+  "candidate_declared_checkpoint_step": 59999,
+  "checkpoint_step_matches_official_deploy": true,
+  "official_deploy_normalization_asset": "arx_x5_sim",
+  "candidate_declared_normalization_asset": "aloha_agilex_sim",
+  "normalization_asset_matches_official_deploy": false,
+  "reference": {
+    "url": "https://robotwin-platform.github.io/data/robotwin_leaderboard.json",
+    "board_updated": "2026-10-02",
+    "entry": "cotrain:Pi_05",
+    "listed_at": "26.08.10",
+    "clean_percent": 70.7,
+    "randomized_percent": 46.0,
+    "trials_per_task": 100
+  },
+  "checkpoint_integrity": {
+    "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+    "format": "openpi_orbax",
+    "declared_config_name": "rldx2_pi05jax_robotwin",
+    "declared_step": 59999,
+    "declared_asset_id": "aloha_agilex_sim",
+    "normalization_asset": "assets/aloha_agilex_sim/norm_stats.json",
+    "sha256_manifest": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k/SHA256SUMS",
+    "sha256_manifest_sha256": "b69d800a8e2fed6af2fa43c135176dad8e3b408d8ec5afa1b3efc0607c510c74",
+    "verified_inference_files": 22,
+    "intentionally_omitted_non_inference_files": [
+      "README.md"
+    ],
+    "sha256_mismatches": [],
+    "incomplete_downloads": []
+  },
+  "source_audit": {
+    "status": "passed",
+    "robotwin_worktree_clean": true,
+    "xpolicylab_worktree_clean": true,
+    "actual_openpi_src": "/root/autodl-tmp/EvolveVLA/robotwin_repo/XPolicyLab/policy/Pi_05/openpi/src",
+    "actual_xpolicylab_revision": "fa431ecd893ee706883e64fe5fe1464ec8cd928d",
+    "pinned_openpi_src": "/root/autodl-tmp/EvolveVLA/robotwin_repo_ba0fd21/XPolicyLab/policy/Pi_05/openpi/src",
+    "pinned_xpolicylab_revision": "c37109c500be67d0dea6b36bf7337bbd26e763cd",
+    "inference_files": {
+      "policies/policy.py": {
+        "actual_sha256": "5a19b73e8d9c60a9e21849bf482c0e9c72f454c3aa88f2de544a24f209913b99",
+        "pinned_sha256": "5a19b73e8d9c60a9e21849bf482c0e9c72f454c3aa88f2de544a24f209913b99",
+        "identical": true
+      },
+      "policies/policy_config.py": {
+        "actual_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+        "pinned_sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52",
+        "identical": true
+      },
+      "training/config.py": {
+        "actual_sha256": "9d4d131807ebcdc91845288f6012124ca3fc43f5faf9d79ee1f4d681a4e0eff9",
+        "pinned_sha256": "9d4d131807ebcdc91845288f6012124ca3fc43f5faf9d79ee1f4d681a4e0eff9",
+        "identical": true
+      },
+      "transforms.py": {
+        "actual_sha256": "7feaa7189bfcac3e3d205484ce9b3fd74fcf597cedc48e74e6d39c4bdffaa0e6",
+        "pinned_sha256": "7feaa7189bfcac3e3d205484ce9b3fd74fcf597cedc48e74e6d39c4bdffaa0e6",
+        "identical": true
+      },
+      "models/pi0.py": {
+        "actual_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342",
+        "pinned_sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342",
+        "identical": true
+      },
+      "models/pi0_config.py": {
+        "actual_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa",
+        "pinned_sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa",
+        "identical": true
+      },
+      "models/tokenizer.py": {
+        "actual_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+        "pinned_sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c",
+        "identical": true
+      }
+    },
+    "inference_files_identical": true,
+    "checkpoint_loader_actual_sha256": "7f109bf81ae4d4a35a2ab0523065af2335ec5856f5f96460cec5b72cc41960f8",
+    "checkpoint_loader_pinned_sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd",
+    "checkpoint_loader_note": "The only OpenPI source difference is a TYPE_CHECKING-only lazy import in training/checkpoints.py; model, transforms, policy, tokenizer, and training configuration sources are byte-identical.",
+    "official_server_lifecycle": "Pi_05/eval.sh starts a fresh policy server for each task; OpenPI Policy initializes the JAX key to 0 in each server.",
+    "current_server_lifecycle": "The completed sweep loaded one policy process per task with policy_seed=0.",
+    "instruction_rng": "The harness imports the pinned official four-argument build_instruction and calls it after expert play_once, close_env, and the second same-seed setup_demo, matching eval_remote_policy."
+  },
+  "public_artifact_audit": {
+    "checked_at_utc": "2026-10-07T10:45:59Z",
+    "huggingface_query": "pi05 robotwin",
+    "model_repositories_scanned": 82,
+    "repositories_with_arx_x5_sim_path": [],
+    "openpi_59999_repositories": [
+      "ShijieSKY/pi05-robotwin@e81d31ca2c52527bb703704f739cb16171593d9f",
+      "ShijieSKY/history-pi05-robotwin@9c3b7a8ebc2f3db29258a3f8762a1e0d8438f7ce"
+    ],
+    "official_dataset_tree_entries": 593,
+    "official_pi05_archives": [
+      "cotrain_ckpt/Pi_05/RoboTwin-lerobot_v30-aloha_agilex-joint-0.tar.gz"
+    ],
+    "official_59999_or_arx_x5_sim_found": false,
+    "details": "/root/autodl-tmp/EvolveVLA/results/pi05_official_orbax_baseline/checkpoint_protocol_audit.md"
+  },
+  "inference": {
+    "checkpoint_format": "openpi_orbax",
+    "action_horizon": 50,
+    "prompt_prefix": "none",
+    "normalization": "quantile",
+    "policy_seed": 0,
+    "noise_source": "jax",
+    "render_backend": "rt",
+    "rt_denoiser": "oidn",
+    "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+    "episode_steps": 2000
+  }
+}

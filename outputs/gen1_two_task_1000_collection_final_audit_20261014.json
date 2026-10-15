@@ -1,0 +1,47 @@
+{
+  "checked_at_unix": 1792012151.1939187,
+  "target_per_task": 1000,
+  "training_processes": [],
+  "tasks": {
+    "place_mouse_pad": {
+      "accepted": 1000,
+      "new_accepted": 950,
+      "hdf5_gib": 6.920397493056953,
+      "frames": 156001,
+      "unique_initial_head_images": 1000,
+      "collector_status": "complete",
+      "estimated_remaining_gib": 0.0,
+      "preserved_validation_seeds": [
+        59019,
+        59042,
+        59009,
+        59038,
+        59017
+      ],
+      "manifest_snapshot_sha256": "9c2ee24736ac24ba44d3b768884659900cc496601272c1809b319124f79855a4",
+      "complete": true
+    },
+    "hanging_mug": {
+      "accepted": 1000,
+      "new_accepted": 950,
+      "hdf5_gib": 21.319968418218195,
+      "frames": 349073,
+      "unique_initial_head_images": 1000,
+      "collector_status": "complete",
+      "estimated_remaining_gib": 0.0,
+      "preserved_validation_seeds": [
+        38010,
+        38008,
+        38068,
+        38061,
+        38039
+      ],
+      "manifest_snapshot_sha256": "1c5f3e1a2952194283a34a95f5f1c1460b44924f0ac9f83ab76152698b00bda3",
+      "complete": true
+    }
+  },
+  "original_split_sha256": "298f78b544c67a420667a6eb98615629cb5f73cd3e051273d938230511cfb212",
+  "free_gib": 78.86500930786133,
+  "estimated_remaining_gib": 0.0,
+  "complete": true
+}

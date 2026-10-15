@@ -1,0 +1,951 @@
+{
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "packages": {
+    "propcache": {
+      "name": "propcache",
+      "version": "0.5.4"
+    },
+    "dm-tree": {
+      "name": "dm-tree",
+      "version": "0.1.10"
+    },
+    "tensorflow-datasets": {
+      "name": "tensorflow-datasets",
+      "version": "4.9.9"
+    },
+    "google-cloud-core": {
+      "name": "google-cloud-core",
+      "version": "2.8.0"
+    },
+    "opentelemetry-api": {
+      "name": "opentelemetry-api",
+      "version": "1.45.0"
+    },
+    "sympy": {
+      "name": "sympy",
+      "version": "1.14.0"
+    },
+    "markdown": {
+      "name": "Markdown",
+      "version": "3.11"
+    },
+    "multiprocess": {
+      "name": "multiprocess",
+      "version": "0.70.16"
+    },
+    "multidict": {
+      "name": "multidict",
+      "version": "6.9.1"
+    },
+    "pyarrow": {
+      "name": "pyarrow",
+      "version": "25.0.1"
+    },
+    "imageio": {
+      "name": "ImageIO",
+      "version": "2.38.0"
+    },
+    "pfzy": {
+      "name": "pfzy",
+      "version": "0.3.4"
+    },
+    "ml-dtypes": {
+      "name": "ml-dtypes",
+      "version": "0.4.1"
+    },
+    "tqdm-loggable": {
+      "name": "tqdm-loggable",
+      "version": "0.4.1"
+    },
+    "google-api-core": {
+      "name": "google-api-core",
+      "version": "2.40.0"
+    },
+    "toml": {
+      "name": "toml",
+      "version": "0.10.2"
+    },
+    "cryptography": {
+      "name": "cryptography",
+      "version": "50.0.2"
+    },
+    "regex": {
+      "name": "regex",
+      "version": "2026.9.29"
+    },
+    "deepdiff": {
+      "name": "deepdiff",
+      "version": "8.6.2"
+    },
+    "nest-asyncio": {
+      "name": "nest-asyncio",
+      "version": "1.6.0"
+    },
+    "google-cloud-storage": {
+      "name": "google-cloud-storage",
+      "version": "3.16.0"
+    },
+    "wheel": {
+      "name": "wheel",
+      "version": "0.48.0"
+    },
+    "jax": {
+      "name": "jax",
+      "version": "0.5.3"
+    },
+    "safetensors": {
+      "name": "safetensors",
+      "version": "0.8.0"
+    },
+    "networkx": {
+      "name": "networkx",
+      "version": "3.6.1"
+    },
+    "farama-notifications": {
+      "name": "Farama-Notifications",
+      "version": "0.0.6"
+    },
+    "tomlkit": {
+      "name": "tomlkit",
+      "version": "0.15.1"
+    },
+    "termcolor": {
+      "name": "termcolor",
+      "version": "3.3.0"
+    },
+    "pyserial": {
+      "name": "pyserial",
+      "version": "3.5"
+    },
+    "docstring-parser": {
+      "name": "docstring_parser",
+      "version": "0.18.0"
+    },
+    "gast": {
+      "name": "gast",
+      "version": "0.7.0"
+    },
+    "jsonlines": {
+      "name": "jsonlines",
+      "version": "4.0.0"
+    },
+    "labmaze": {
+      "name": "labmaze",
+      "version": "1.0.6"
+    },
+    "jaxlib": {
+      "name": "jaxlib",
+      "version": "0.5.3"
+    },
+    "google-auth": {
+      "name": "google-auth",
+      "version": "2.59.1"
+    },
+    "websockets": {
+      "name": "websockets",
+      "version": "17.1"
+    },
+    "pydantic-core": {
+      "name": "pydantic_core",
+      "version": "2.46.5"
+    },
+    "pydantic": {
+      "name": "pydantic",
+      "version": "2.13.5"
+    },
+    "immutabledict": {
+      "name": "immutabledict",
+      "version": "4.3.1"
+    },
+    "nvidia-cufile-cu12": {
+      "name": "nvidia-cufile-cu12",
+      "version": "1.11.1.6"
+    },
+    "hatchling": {
+      "name": "hatchling",
+      "version": "1.32.4"
+    },
+    "pytest": {
+      "name": "pytest",
+      "version": "9.1.1"
+    },
+    "smmap": {
+      "name": "smmap",
+      "version": "5.0.3"
+    },
+    "equinox": {
+      "name": "equinox",
+      "version": "0.13.8"
+    },
+    "pyasn1": {
+      "name": "pyasn1",
+      "version": "0.6.4"
+    },
+    "flatbuffers": {
+      "name": "flatbuffers",
+      "version": "25.12.19"
+    },
+    "nvidia-cuda-nvcc-cu12": {
+      "name": "nvidia-cuda-nvcc-cu12",
+      "version": "12.9.86"
+    },
+    "tensorstore": {
+      "name": "tensorstore",
+      "version": "0.1.74"
+    },
+    "uvloop": {
+      "name": "uvloop",
+      "version": "0.23.0"
+    },
+    "tensorboard": {
+      "name": "tensorboard",
+      "version": "2.18.0"
+    },
+    "google-pasta": {
+      "name": "google-pasta",
+      "version": "0.2.0"
+    },
+    "opentelemetry-exporter-otlp-common": {
+      "name": "opentelemetry-exporter-otlp-common",
+      "version": "0.66b0"
+    },
+    "hf-transfer": {
+      "name": "hf_transfer",
+      "version": "0.1.9"
+    },
+    "openpi-client": {
+      "name": "openpi-client",
+      "version": "0.1.0"
+    },
+    "numpydantic": {
+      "name": "numpydantic",
+      "version": "1.8.1"
+    },
+    "chex": {
+      "name": "chex",
+      "version": "0.1.90"
+    },
+    "opentelemetry-exporter-http-transport": {
+      "name": "opentelemetry-exporter-http-transport",
+      "version": "0.66b0"
+    },
+    "nvidia-cusolver-cu12": {
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.7.1.2"
+    },
+    "pandas": {
+      "name": "pandas",
+      "version": "3.0.6"
+    },
+    "lxml": {
+      "name": "lxml",
+      "version": "6.1.3"
+    },
+    "humanize": {
+      "name": "humanize",
+      "version": "4.16.0"
+    },
+    "gcsfs": {
+      "name": "gcsfs",
+      "version": "2025.3.0"
+    },
+    "mergedeep": {
+      "name": "mergedeep",
+      "version": "1.3.4"
+    },
+    "markupsafe": {
+      "name": "MarkupSafe",
+      "version": "3.0.3"
+    },
+    "triton": {
+      "name": "triton",
+      "version": "3.3.1"
+    },
+    "proto-plus": {
+      "name": "proto-plus",
+      "version": "1.29.0"
+    },
+    "urllib3": {
+      "name": "urllib3",
+      "version": "2.8.0"
+    },
+    "mujoco": {
+      "name": "mujoco",
+      "version": "3.8.1"
+    },
+    "flask": {
+      "name": "Flask",
+      "version": "3.1.3"
+    },
+    "google-crc32c": {
+      "name": "google-crc32c",
+      "version": "1.9.0"
+    },
+    "typing-extensions": {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    "attrs": {
+      "name": "attrs",
+      "version": "26.1.0"
+    },
+    "nvidia-nvjitlink-cu12": {
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.6.85"
+    },
+    "itsdangerous": {
+      "name": "itsdangerous",
+      "version": "2.2.0"
+    },
+    "opencv-python": {
+      "name": "opencv-python",
+      "version": "4.11.0.86"
+    },
+    "google-resumable-media": {
+      "name": "google-resumable-media",
+      "version": "2.11.0"
+    },
+    "pillow": {
+      "name": "pillow",
+      "version": "12.3.0"
+    },
+    "wrapt": {
+      "name": "wrapt",
+      "version": "2.5.0"
+    },
+    "httpx": {
+      "name": "httpx",
+      "version": "0.28.1"
+    },
+    "pluggy": {
+      "name": "pluggy",
+      "version": "1.6.0"
+    },
+    "jax-cuda12-pjrt": {
+      "name": "jax-cuda12-pjrt",
+      "version": "0.5.3"
+    },
+    "beartype": {
+      "name": "beartype",
+      "version": "0.19.0"
+    },
+    "h5py": {
+      "name": "h5py",
+      "version": "3.16.0"
+    },
+    "wcwidth": {
+      "name": "wcwidth",
+      "version": "0.9.1"
+    },
+    "hf-xet": {
+      "name": "hf-xet",
+      "version": "1.6.0"
+    },
+    "dm-env": {
+      "name": "dm-env",
+      "version": "1.6"
+    },
+    "pyparsing": {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    "orderly-set": {
+      "name": "orderly-set",
+      "version": "5.5.0"
+    },
+    "platformdirs": {
+      "name": "platformdirs",
+      "version": "4.12.2"
+    },
+    "tokenizers": {
+      "name": "tokenizers",
+      "version": "0.21.4"
+    },
+    "filelock": {
+      "name": "filelock",
+      "version": "3.32.3"
+    },
+    "typing-inspect": {
+      "name": "typing-inspect",
+      "version": "0.9.0"
+    },
+    "protobuf": {
+      "name": "protobuf",
+      "version": "6.33.6"
+    },
+    "cffi": {
+      "name": "cffi",
+      "version": "2.1.1"
+    },
+    "opentelemetry-exporter-otlp-proto-http": {
+      "name": "opentelemetry-exporter-otlp-proto-http",
+      "version": "1.45.0"
+    },
+    "click": {
+      "name": "click",
+      "version": "8.5.0"
+    },
+    "prompt-toolkit": {
+      "name": "prompt_toolkit",
+      "version": "3.0.53"
+    },
+    "aiosignal": {
+      "name": "aiosignal",
+      "version": "1.4.0"
+    },
+    "nvidia-cusparse-cu12": {
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.5.4.2"
+    },
+    "nvidia-cusparselt-cu12": {
+      "name": "nvidia-cusparselt-cu12",
+      "version": "0.6.3"
+    },
+    "editables": {
+      "name": "editables",
+      "version": "0.6"
+    },
+    "certifi": {
+      "name": "certifi",
+      "version": "2026.7.22"
+    },
+    "tensorflow-estimator": {
+      "name": "tensorflow-estimator",
+      "version": "2.15.0"
+    },
+    "orbax-checkpoint": {
+      "name": "orbax-checkpoint",
+      "version": "0.11.13"
+    },
+    "pyyaml-include": {
+      "name": "pyyaml-include",
+      "version": "1.4.1"
+    },
+    "googleapis-common-protos": {
+      "name": "googleapis-common-protos",
+      "version": "1.75.0"
+    },
+    "h11": {
+      "name": "h11",
+      "version": "0.16.0"
+    },
+    "lerobot": {
+      "name": "lerobot",
+      "version": "0.4.4"
+    },
+    "astunparse": {
+      "name": "astunparse",
+      "version": "1.6.3"
+    },
+    "polars": {
+      "name": "polars",
+      "version": "1.44.2"
+    },
+    "nvidia-cublas-cu12": {
+      "name": "nvidia-cublas-cu12",
+      "version": "12.6.4.1"
+    },
+    "markdown-it-py": {
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    "importlib-metadata": {
+      "name": "importlib_metadata",
+      "version": "9.0.1"
+    },
+    "tyro": {
+      "name": "tyro",
+      "version": "1.0.16"
+    },
+    "polars-runtime-32": {
+      "name": "polars-runtime-32",
+      "version": "1.44.2"
+    },
+    "jax-cuda12-plugin": {
+      "name": "jax-cuda12-plugin",
+      "version": "0.5.3"
+    },
+    "treescope": {
+      "name": "treescope",
+      "version": "0.1.10"
+    },
+    "dm-control": {
+      "name": "dm_control",
+      "version": "1.0.41"
+    },
+    "oauthlib": {
+      "name": "oauthlib",
+      "version": "4.0.0"
+    },
+    "libclang": {
+      "name": "libclang",
+      "version": "18.1.1"
+    },
+    "google-auth-oauthlib": {
+      "name": "google-auth-oauthlib",
+      "version": "1.5.0"
+    },
+    "gym-aloha": {
+      "name": "gym-aloha",
+      "version": "0.1.4"
+    },
+    "toolz": {
+      "name": "toolz",
+      "version": "1.1.0"
+    },
+    "tensorboard-data-server": {
+      "name": "tensorboard-data-server",
+      "version": "0.7.2"
+    },
+    "prometheus-client": {
+      "name": "prometheus_client",
+      "version": "0.26.0"
+    },
+    "anyio": {
+      "name": "anyio",
+      "version": "4.15.1"
+    },
+    "aiohttp": {
+      "name": "aiohttp",
+      "version": "3.14.3"
+    },
+    "charset-normalizer": {
+      "name": "charset-normalizer",
+      "version": "3.5.2"
+    },
+    "nvidia-cuda-cupti-cu12": {
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.6.80"
+    },
+    "einops": {
+      "name": "einops",
+      "version": "0.8.2"
+    },
+    "nvidia-cuda-nvrtc-cu12": {
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.6.77"
+    },
+    "opentelemetry-exporter-otlp-proto-common": {
+      "name": "opentelemetry-exporter-otlp-proto-common",
+      "version": "1.45.0"
+    },
+    "array-record": {
+      "name": "array_record",
+      "version": "0.8.3"
+    },
+    "mypy-extensions": {
+      "name": "mypy_extensions",
+      "version": "1.1.0"
+    },
+    "opentelemetry-proto": {
+      "name": "opentelemetry-proto",
+      "version": "1.45.0"
+    },
+    "wadler-lindig": {
+      "name": "wadler_lindig",
+      "version": "0.1.7"
+    },
+    "aiofiles": {
+      "name": "aiofiles",
+      "version": "25.1.0"
+    },
+    "msgpack": {
+      "name": "msgpack",
+      "version": "1.2.3"
+    },
+    "pyopengl": {
+      "name": "PyOpenGL",
+      "version": "3.1.10"
+    },
+    "frozenlist": {
+      "name": "frozenlist",
+      "version": "1.8.0"
+    },
+    "sentry-sdk": {
+      "name": "sentry-sdk",
+      "version": "2.71.0"
+    },
+    "typeguard": {
+      "name": "typeguard",
+      "version": "4.6.0"
+    },
+    "optax": {
+      "name": "optax",
+      "version": "0.2.8"
+    },
+    "absl-py": {
+      "name": "absl-py",
+      "version": "2.5.0"
+    },
+    "iniconfig": {
+      "name": "iniconfig",
+      "version": "2.3.0"
+    },
+    "evdev": {
+      "name": "evdev",
+      "version": "2.0.0"
+    },
+    "simplejson": {
+      "name": "simplejson",
+      "version": "4.1.2"
+    },
+    "requests-oauthlib": {
+      "name": "requests-oauthlib",
+      "version": "2.0.0"
+    },
+    "opencv-python-headless": {
+      "name": "opencv-python-headless",
+      "version": "4.11.0.86"
+    },
+    "pygments": {
+      "name": "Pygments",
+      "version": "2.21.0"
+    },
+    "ml-collections": {
+      "name": "ml_collections",
+      "version": "1.0.0"
+    },
+    "jinja2": {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    "optree": {
+      "name": "optree",
+      "version": "0.20.0"
+    },
+    "augmax": {
+      "name": "augmax",
+      "version": "0.4.1"
+    },
+    "opentelemetry-semantic-conventions": {
+      "name": "opentelemetry-semantic-conventions",
+      "version": "0.66b0"
+    },
+    "etils": {
+      "name": "etils",
+      "version": "1.14.0"
+    },
+    "glfw": {
+      "name": "glfw",
+      "version": "2.10.2"
+    },
+    "sentencepiece": {
+      "name": "sentencepiece",
+      "version": "0.2.2"
+    },
+    "draccus": {
+      "name": "draccus",
+      "version": "0.10.0"
+    },
+    "opt-einsum": {
+      "name": "opt_einsum",
+      "version": "3.4.0"
+    },
+    "rerun-sdk": {
+      "name": "rerun-sdk",
+      "version": "0.22.1"
+    },
+    "scipy": {
+      "name": "scipy",
+      "version": "1.17.1"
+    },
+    "tensorflow-io-gcs-filesystem": {
+      "name": "tensorflow-io-gcs-filesystem",
+      "version": "0.37.1"
+    },
+    "rich": {
+      "name": "rich",
+      "version": "15.0.0"
+    },
+    "transformers": {
+      "name": "transformers",
+      "version": "4.53.2"
+    },
+    "tqdm": {
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    "numpy": {
+      "name": "numpy",
+      "version": "1.26.4"
+    },
+    "six": {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    "mdurl": {
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    "nvidia-nccl-cu12": {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.26.2"
+    },
+    "psutil": {
+      "name": "psutil",
+      "version": "7.2.2"
+    },
+    "simple-parsing": {
+      "name": "simple-parsing",
+      "version": "0.1.9"
+    },
+    "huggingface-hub": {
+      "name": "huggingface-hub",
+      "version": "0.35.3"
+    },
+    "promise": {
+      "name": "promise",
+      "version": "2.3"
+    },
+    "idna": {
+      "name": "idna",
+      "version": "3.20"
+    },
+    "typing-inspection": {
+      "name": "typing-inspection",
+      "version": "0.4.4"
+    },
+    "inquirerpy": {
+      "name": "inquirerpy",
+      "version": "0.3.4"
+    },
+    "nvidia-nvtx-cu12": {
+      "name": "nvidia-nvtx-cu12",
+      "version": "12.6.77"
+    },
+    "keras": {
+      "name": "keras",
+      "version": "3.15.1"
+    },
+    "nvidia-curand-cu12": {
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.7.77"
+    },
+    "nvidia-cuda-runtime-cu12": {
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.6.77"
+    },
+    "pyyaml": {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    "grpcio": {
+      "name": "grpcio",
+      "version": "1.84.0"
+    },
+    "nvidia-cudnn-cu12": {
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.5.1.17"
+    },
+    "mpmath": {
+      "name": "mpmath",
+      "version": "1.3.0"
+    },
+    "python-xlib": {
+      "name": "python-xlib",
+      "version": "0.33"
+    },
+    "blinker": {
+      "name": "blinker",
+      "version": "1.9.0"
+    },
+    "opentelemetry-sdk": {
+      "name": "opentelemetry-sdk",
+      "version": "1.45.0"
+    },
+    "httpcore": {
+      "name": "httpcore",
+      "version": "1.0.9"
+    },
+    "zipp": {
+      "name": "zipp",
+      "version": "4.1.0"
+    },
+    "werkzeug": {
+      "name": "Werkzeug",
+      "version": "3.1.9"
+    },
+    "dill": {
+      "name": "dill",
+      "version": "0.3.8"
+    },
+    "aiohappyeyeballs": {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1"
+    },
+    "yarl": {
+      "name": "yarl",
+      "version": "1.25.1"
+    },
+    "imageio-ffmpeg": {
+      "name": "imageio-ffmpeg",
+      "version": "0.6.0"
+    },
+    "pynput": {
+      "name": "pynput",
+      "version": "1.8.2"
+    },
+    "python-dateutil": {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    "pyasn1-modules": {
+      "name": "pyasn1_modules",
+      "version": "0.4.2"
+    },
+    "gitdb": {
+      "name": "gitdb",
+      "version": "4.0.12"
+    },
+    "namex": {
+      "name": "namex",
+      "version": "0.1.0"
+    },
+    "flax": {
+      "name": "flax",
+      "version": "0.10.2"
+    },
+    "jaxtyping": {
+      "name": "jaxtyping",
+      "version": "0.2.36"
+    },
+    "pycparser": {
+      "name": "pycparser",
+      "version": "3.0"
+    },
+    "decorator": {
+      "name": "decorator",
+      "version": "5.3.1"
+    },
+    "annotated-types": {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    "nvidia-cufft-cu12": {
+      "name": "nvidia-cufft-cu12",
+      "version": "11.3.0.4"
+    },
+    "xxhash": {
+      "name": "xxhash",
+      "version": "4.0.1"
+    },
+    "openpi": {
+      "name": "openpi",
+      "version": "0.1.0"
+    },
+    "requests": {
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    "gitpython": {
+      "name": "GitPython",
+      "version": "3.2.0"
+    },
+    "cloudpickle": {
+      "name": "cloudpickle",
+      "version": "3.1.2"
+    },
+    "diffusers": {
+      "name": "diffusers",
+      "version": "0.35.2"
+    },
+    "pip": {
+      "name": "pip",
+      "version": "26.2.1"
+    },
+    "wandb": {
+      "name": "wandb",
+      "version": "0.24.2"
+    },
+    "torchcodec": {
+      "name": "torchcodec",
+      "version": "0.10.0"
+    },
+    "accelerate": {
+      "name": "accelerate",
+      "version": "1.10.1"
+    },
+    "torch": {
+      "name": "torch",
+      "version": "2.10.0+cpu"
+    },
+    "torchvision": {
+      "name": "torchvision",
+      "version": "0.25.0+cpu"
+    },
+    "trove-classifiers": {
+      "name": "trove-classifiers",
+      "version": "2026.9.21.13"
+    },
+    "setuptools": {
+      "name": "setuptools",
+      "version": "80.10.2"
+    },
+    "pathspec": {
+      "name": "pathspec",
+      "version": "1.1.1"
+    },
+    "cmake": {
+      "name": "cmake",
+      "version": "4.1.3"
+    },
+    "packaging": {
+      "name": "packaging",
+      "version": "25.0"
+    },
+    "datasets": {
+      "name": "datasets",
+      "version": "4.0.0"
+    },
+    "gymnasium": {
+      "name": "gymnasium",
+      "version": "1.2.3"
+    },
+    "fsspec": {
+      "name": "fsspec",
+      "version": "2025.3.0"
+    },
+    "av": {
+      "name": "av",
+      "version": "15.1.0"
+    },
+    "tensorflow-metadata": {
+      "name": "tensorflow-metadata",
+      "version": "1.21.0"
+    }
+  },
+  "modified": [
+    {
+      "package": "transformers",
+      "version": "4.53.2",
+      "path": "/root/autodl-tmp/conda_envs/gen1_train_ready/lib/python3.11/site-packages/transformers/models/gemma/configuration_gemma.py",
+      "relative": "transformers/models/gemma/configuration_gemma.py",
+      "sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6",
+      "original_record_sha256": "sha256=LWnoaGz53xxPIbZT1WzQEuF7Rt_MplPVQ9NvP55XE9I"
+    },
+    {
+      "package": "transformers",
+      "version": "4.53.2",
+      "path": "/root/autodl-tmp/conda_envs/gen1_train_ready/lib/python3.11/site-packages/transformers/models/gemma/modeling_gemma.py",
+      "relative": "transformers/models/gemma/modeling_gemma.py",
+      "sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde",
+      "original_record_sha256": "sha256=v2URF_qfxoFDiWbMMfo1eSKRkI2iPg-ZtpFXnJTpcYk"
+    },
+    {
+      "package": "transformers",
+      "version": "4.53.2",
+      "path": "/root/autodl-tmp/conda_envs/gen1_train_ready/lib/python3.11/site-packages/transformers/models/paligemma/modeling_paligemma.py",
+      "relative": "transformers/models/paligemma/modeling_paligemma.py",
+      "sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c",
+      "original_record_sha256": "sha256=NIY8uxUZW9P0qghvGSINPJ5kv2CXoLdjbKHGVdMR7yo"
+    },
+    {
+      "package": "transformers",
+      "version": "4.53.2",
+      "path": "/root/autodl-tmp/conda_envs/gen1_train_ready/lib/python3.11/site-packages/transformers/models/siglip/modeling_siglip.py",
+      "relative": "transformers/models/siglip/modeling_siglip.py",
+      "sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b",
+      "original_record_sha256": "sha256=nBrjowfJ88nJyQ3qr7-yph3YgMOnqK3yvpQ_IZt2nbU"
+    }
+  ]
+}

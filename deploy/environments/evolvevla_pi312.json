@@ -1,0 +1,474 @@
+{
+  "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:46:43) [GCC 14.3.0]",
+  "packages": {
+    "regex": {
+      "name": "regex",
+      "version": "2026.9.29"
+    },
+    "click": {
+      "name": "click",
+      "version": "8.5.0"
+    },
+    "wheel": {
+      "name": "wheel",
+      "version": "0.47.0"
+    },
+    "pip": {
+      "name": "pip",
+      "version": "26.2.1"
+    },
+    "nvidia-cusparselt-cu12": {
+      "name": "nvidia-cusparselt-cu12",
+      "version": "0.7.1"
+    },
+    "mpmath": {
+      "name": "mpmath",
+      "version": "1.3.0"
+    },
+    "cuda-toolkit": {
+      "name": "cuda-toolkit",
+      "version": "12.8.1"
+    },
+    "typing-extensions": {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    "triton": {
+      "name": "triton",
+      "version": "3.6.0"
+    },
+    "sympy": {
+      "name": "sympy",
+      "version": "1.14.0"
+    },
+    "pyyaml": {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    "pygments": {
+      "name": "Pygments",
+      "version": "2.21.0"
+    },
+    "setuptools": {
+      "name": "setuptools",
+      "version": "78.1.0"
+    },
+    "pillow": {
+      "name": "pillow",
+      "version": "12.3.0"
+    },
+    "nvidia-nvtx-cu12": {
+      "name": "nvidia-nvtx-cu12",
+      "version": "12.8.90"
+    },
+    "nvidia-nvshmem-cu12": {
+      "name": "nvidia-nvshmem-cu12",
+      "version": "3.4.5"
+    },
+    "nvidia-nvjitlink-cu12": {
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.8.93"
+    },
+    "nvidia-nccl-cu12": {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.28.9"
+    },
+    "nvidia-curand-cu12": {
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.9.90"
+    },
+    "nvidia-cufile-cu12": {
+      "name": "nvidia-cufile-cu12",
+      "version": "1.13.1.3"
+    },
+    "nvidia-cuda-runtime-cu12": {
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.8.90"
+    },
+    "nvidia-cuda-nvrtc-cu12": {
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.8.93"
+    },
+    "nvidia-cuda-cupti-cu12": {
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.8.90"
+    },
+    "nvidia-cublas-cu12": {
+      "name": "nvidia-cublas-cu12",
+      "version": "12.8.4.1"
+    },
+    "cmake": {
+      "name": "cmake",
+      "version": "4.1.3"
+    },
+    "charset-normalizer": {
+      "name": "charset-normalizer",
+      "version": "3.5.2"
+    },
+    "networkx": {
+      "name": "networkx",
+      "version": "3.6.1"
+    },
+    "markupsafe": {
+      "name": "MarkupSafe",
+      "version": "3.0.3"
+    },
+    "filelock": {
+      "name": "filelock",
+      "version": "3.32.3"
+    },
+    "cuda-pathfinder": {
+      "name": "cuda-pathfinder",
+      "version": "1.6.0"
+    },
+    "nvidia-cusparse-cu12": {
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.5.8.93"
+    },
+    "nvidia-cufft-cu12": {
+      "name": "nvidia-cufft-cu12",
+      "version": "11.3.3.83"
+    },
+    "nvidia-cudnn-cu12": {
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.19.0.56"
+    },
+    "jinja2": {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    "cuda-bindings": {
+      "name": "cuda-bindings",
+      "version": "12.9.7"
+    },
+    "nvidia-cusolver-cu12": {
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.7.3.90"
+    },
+    "torch": {
+      "name": "torch",
+      "version": "2.11.0+cu128"
+    },
+    "torchvision": {
+      "name": "torchvision",
+      "version": "0.26.0+cu128"
+    },
+    "farama-notifications": {
+      "name": "Farama-Notifications",
+      "version": "0.0.6"
+    },
+    "urllib3": {
+      "name": "urllib3",
+      "version": "2.8.0"
+    },
+    "tqdm": {
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    "toml": {
+      "name": "toml",
+      "version": "0.10.2"
+    },
+    "termcolor": {
+      "name": "termcolor",
+      "version": "3.3.0"
+    },
+    "shellingham": {
+      "name": "shellingham",
+      "version": "1.5.4"
+    },
+    "safetensors": {
+      "name": "safetensors",
+      "version": "0.8.0"
+    },
+    "packaging": {
+      "name": "packaging",
+      "version": "25.0"
+    },
+    "llvmlite": {
+      "name": "llvmlite",
+      "version": "0.44.0"
+    },
+    "mypy-extensions": {
+      "name": "mypy_extensions",
+      "version": "1.1.0"
+    },
+    "mergedeep": {
+      "name": "mergedeep",
+      "version": "1.3.4"
+    },
+    "mdurl": {
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    "idna": {
+      "name": "idna",
+      "version": "3.20"
+    },
+    "hf-xet": {
+      "name": "hf-xet",
+      "version": "1.6.0"
+    },
+    "h11": {
+      "name": "h11",
+      "version": "0.16.0"
+    },
+    "einops": {
+      "name": "einops",
+      "version": "0.8.2"
+    },
+    "cloudpickle": {
+      "name": "cloudpickle",
+      "version": "3.1.2"
+    },
+    "certifi": {
+      "name": "certifi",
+      "version": "2026.7.22"
+    },
+    "annotated-doc": {
+      "name": "annotated-doc",
+      "version": "0.0.5"
+    },
+    "typing-inspect": {
+      "name": "typing-inspect",
+      "version": "0.9.0"
+    },
+    "imageio": {
+      "name": "ImageIO",
+      "version": "2.38.0"
+    },
+    "requests": {
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    "opencv-python-headless": {
+      "name": "opencv-python-headless",
+      "version": "4.13.0.92"
+    },
+    "markdown-it-py": {
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    "httpcore": {
+      "name": "httpcore",
+      "version": "1.0.9"
+    },
+    "gymnasium": {
+      "name": "gymnasium",
+      "version": "1.3.0"
+    },
+    "anyio": {
+      "name": "anyio",
+      "version": "4.15.1"
+    },
+    "rich": {
+      "name": "rich",
+      "version": "15.0.0"
+    },
+    "httpx": {
+      "name": "httpx",
+      "version": "0.28.1"
+    },
+    "draccus": {
+      "name": "draccus",
+      "version": "0.11.6"
+    },
+    "typer": {
+      "name": "typer",
+      "version": "0.27.2"
+    },
+    "huggingface-hub": {
+      "name": "huggingface_hub",
+      "version": "1.33.0"
+    },
+    "tokenizers": {
+      "name": "tokenizers",
+      "version": "0.22.2"
+    },
+    "transformers": {
+      "name": "transformers",
+      "version": "5.5.4"
+    },
+    "lerobot": {
+      "name": "lerobot",
+      "version": "0.6.1"
+    },
+    "psutil": {
+      "name": "psutil",
+      "version": "7.2.2"
+    },
+    "accelerate": {
+      "name": "accelerate",
+      "version": "1.15.0"
+    },
+    "peft": {
+      "name": "peft",
+      "version": "0.21.1"
+    },
+    "xxhash": {
+      "name": "xxhash",
+      "version": "4.0.1"
+    },
+    "six": {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    "pyarrow": {
+      "name": "pyarrow",
+      "version": "25.0.1"
+    },
+    "propcache": {
+      "name": "propcache",
+      "version": "0.5.4"
+    },
+    "multidict": {
+      "name": "multidict",
+      "version": "6.9.1"
+    },
+    "fsspec": {
+      "name": "fsspec",
+      "version": "2026.6.0"
+    },
+    "frozenlist": {
+      "name": "frozenlist",
+      "version": "1.8.0"
+    },
+    "dill": {
+      "name": "dill",
+      "version": "0.4.1"
+    },
+    "attrs": {
+      "name": "attrs",
+      "version": "26.1.0"
+    },
+    "aiohappyeyeballs": {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1"
+    },
+    "yarl": {
+      "name": "yarl",
+      "version": "1.25.1"
+    },
+    "python-dateutil": {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    "multiprocess": {
+      "name": "multiprocess",
+      "version": "0.70.19"
+    },
+    "aiosignal": {
+      "name": "aiosignal",
+      "version": "1.4.0"
+    },
+    "pandas": {
+      "name": "pandas",
+      "version": "3.0.6"
+    },
+    "aiohttp": {
+      "name": "aiohttp",
+      "version": "3.14.3"
+    },
+    "datasets": {
+      "name": "datasets",
+      "version": "5.0.1"
+    },
+    "robosuite": {
+      "name": "robosuite",
+      "version": "1.5.2"
+    },
+    "robocasa": {
+      "name": "robocasa",
+      "version": "1.0.1"
+    },
+    "pyopengl": {
+      "name": "PyOpenGL",
+      "version": "3.1.10"
+    },
+    "gym-notices": {
+      "name": "gym-notices",
+      "version": "0.1.0"
+    },
+    "glfw": {
+      "name": "glfw",
+      "version": "2.10.2"
+    },
+    "zipp": {
+      "name": "zipp",
+      "version": "4.1.0"
+    },
+    "gym": {
+      "name": "gym",
+      "version": "0.26.2"
+    },
+    "etils": {
+      "name": "etils",
+      "version": "1.14.0"
+    },
+    "absl-py": {
+      "name": "absl-py",
+      "version": "2.5.0"
+    },
+    "mujoco": {
+      "name": "mujoco",
+      "version": "3.3.1"
+    },
+    "protobuf": {
+      "name": "protobuf",
+      "version": "7.36.2"
+    },
+    "numpy": {
+      "name": "numpy",
+      "version": "2.2.5"
+    },
+    "h5py": {
+      "name": "h5py",
+      "version": "3.16.0"
+    },
+    "scipy": {
+      "name": "scipy",
+      "version": "1.15.3"
+    },
+    "numba": {
+      "name": "numba",
+      "version": "0.61.2"
+    },
+    "pynput": {
+      "name": "pynput",
+      "version": "1.8.2"
+    },
+    "hidapi": {
+      "name": "hidapi",
+      "version": "0.14.0"
+    },
+    "tianshou": {
+      "name": "tianshou",
+      "version": "0.4.10"
+    },
+    "quadprog": {
+      "name": "quadprog",
+      "version": "0.1.13"
+    },
+    "qpsolvers": {
+      "name": "qpsolvers",
+      "version": "4.13.0"
+    },
+    "pygame": {
+      "name": "pygame",
+      "version": "2.6.1"
+    },
+    "lxml": {
+      "name": "lxml",
+      "version": "6.1.3"
+    },
+    "av": {
+      "name": "av",
+      "version": "15.1.0"
+    },
+    "sentencepiece": {
+      "name": "sentencepiece",
+      "version": "0.2.2"
+    }
+  },
+  "modified": []
+}

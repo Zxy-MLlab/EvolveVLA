@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "scope": "Numeric subset mapping and sampler only; full RGB/mixed-loader preflight still required",
+  "split_sha256": "7cfa14e75883fc3b5d8d074a2351e9a2cc4be804beb1f02ae4d90ab9240feaa3",
+  "local_train_episodes": 1990,
+  "local_per_task": {
+    "hanging_mug": 995,
+    "place_mouse_pad": 995
+  },
+  "official_train_episodes": 900,
+  "official_per_task": {
+    "handover_block": 50,
+    "hanging_mug": 50,
+    "lift_pot": 50,
+    "move_can_pot": 50,
+    "move_pillbottle_pad": 50,
+    "move_stapler_pad": 50,
+    "pick_diverse_bottles": 50,
+    "place_bread_basket": 50,
+    "place_bread_skillet": 50,
+    "place_can_basket": 50,
+    "place_dual_shoes": 50,
+    "place_mouse_pad": 50,
+    "place_object_scale": 50,
+    "put_bottles_dustbin": 50,
+    "put_object_cabinet": 50,
+    "scan_object": 50,
+    "stack_blocks_three": 50,
+    "stamp_seal": 50
+  },
+  "total_train_episodes": 2890,
+  "excluded_local_train_episodes": 720,
+  "local_selected_frames": 502624,
+  "all_selected_frame_indices_verified": true,
+  "sampler": {
+    "samples": 28800,
+    "epochs_started": 1,
+    "allocation": "equal source allocation; equal tasks within each source; uniform frames within stratum",
+    "official_fraction_target": 0.5,
+    "per_task_source": [
+      {
+        "task": "handover_block",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "hanging_mug",
+        "source": "local",
+        "samples": 7200
+      },
+      {
+        "task": "hanging_mug",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "lift_pot",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "move_can_pot",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "move_stapler_pad",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "place_bread_basket",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "place_bread_skillet",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "place_can_basket",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "place_dual_shoes",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "place_mouse_pad",
+        "source": "local",
+        "samples": 7200
+      },
+      {
+        "task": "place_mouse_pad",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "place_object_scale",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "put_object_cabinet",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "scan_object",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "stack_blocks_three",
+        "source": "official",
+        "samples": 800
+      },
+      {
+        "task": "stamp_seal",
+        "source": "official",
+        "samples": 800
+      }
+    ]
+  }
+}

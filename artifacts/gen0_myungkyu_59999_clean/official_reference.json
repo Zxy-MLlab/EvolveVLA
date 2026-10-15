@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "url": "https://robotwin-platform.github.io/data/robotwin_leaderboard.json",
+    "board_updated": "2026-10-02",
+    "entry": "cotrain:Pi_05",
+    "listed_at": "26.08.10",
+    "clean_percent": 70.7,
+    "randomized_percent": 46.0,
+    "trials_per_task": 100
+  },
+  "per_task": {
+    "adjust_bottle": {
+      "clean": 99.0,
+      "randomized": 77.0
+    },
+    "beat_block_hammer": {
+      "clean": 93.0,
+      "randomized": 23.0
+    },
+    "blocks_ranking_rgb": {
+      "clean": 72.0,
+      "randomized": 44.0
+    },
+    "blocks_ranking_size": {
+      "clean": 45.0,
+      "randomized": 21.0
+    },
+    "click_alarmclock": {
+      "clean": 65.0,
+      "randomized": 50.0
+    },
+    "click_bell": {
+      "clean": 31.0,
+      "randomized": 35.0
+    },
+    "dump_bin_bigbin": {
+      "clean": 92.0,
+      "randomized": 84.0
+    },
+    "grab_roller": {
+      "clean": 99.0,
+      "randomized": 97.0
+    },
+    "handover_block": {
+      "clean": 30.0,
+      "randomized": 12.0
+    },
+    "handover_mic": {
+      "clean": 98.0,
+      "randomized": 6.0
+    },
+    "hanging_mug": {
+      "clean": 17.0,
+      "randomized": 14.0
+    },
+    "lift_pot": {
+      "clean": 98.0,
+      "randomized": 35.0
+    },
+    "move_can_pot": {
+      "clean": 60.0,
+      "randomized": 10.0
+    },
+    "move_pillbottle_pad": {
+      "clean": 46.0,
+      "randomized": 32.0
+    },
+    "move_playingcard_away": {
+      "clean": 84.0,
+      "randomized": 65.0
+    },
+    "move_stapler_pad": {
+      "clean": 20.0,
+      "randomized": 18.0
+    },
+    "open_laptop": {
+      "clean": 93.0,
+      "randomized": 68.0
+    },
+    "open_microwave": {
+      "clean": 86.0,
+      "randomized": 59.0
+    },
+    "pick_diverse_bottles": {
+      "clean": 66.0,
+      "randomized": 42.0
+    },
+    "pick_dual_bottles": {
+      "clean": 72.0,
+      "randomized": 57.0
+    },
+    "place_a2b_left": {
+      "clean": 71.0,
+      "randomized": 49.0
+    },
+    "place_a2b_right": {
+      "clean": 68.0,
+      "randomized": 39.0
+    },
+    "place_bread_basket": {
+      "clean": 63.0,
+      "randomized": 60.0
+    },
+    "place_bread_skillet": {
+      "clean": 76.0,
+      "randomized": 47.0
+    },
+    "place_burger_fries": {
+      "clean": 82.0,
+      "randomized": 86.0
+    },
+    "place_can_basket": {
+      "clean": 56.0,
+      "randomized": 10.0
+    },
+    "place_cans_plasticbox": {
+      "clean": 31.0,
+      "randomized": 73.0
+    },
+    "place_container_plate": {
+      "clean": 92.0,
+      "randomized": 72.0
+    },
+    "place_dual_shoes": {
+      "clean": 70.0,
+      "randomized": 45.0
+    },
+    "place_empty_cup": {
+      "clean": 96.0,
+      "randomized": 80.0
+    },
+    "place_fan": {
+      "clean": 66.0,
+      "randomized": 26.0
+    },
+    "place_mouse_pad": {
+      "clean": 34.0,
+      "randomized": 31.0
+    },
+    "place_object_basket": {
+      "clean": 70.0,
+      "randomized": 29.0
+    },
+    "place_object_scale": {
+      "clean": 78.0,
+      "randomized": 38.0
+    },
+    "place_object_stand": {
+      "clean": 85.0,
+      "randomized": 47.0
+    },
+    "place_phone_stand": {
+      "clean": 65.0,
+      "randomized": 37.0
+    },
+    "place_shoe": {
+      "clean": 82.0,
+      "randomized": 50.0
+    },
+    "press_stapler": {
+      "clean": 79.0,
+      "randomized": 63.0
+    },
+    "put_bottles_dustbin": {
+      "clean": 78.0,
+      "randomized": 50.0
+    },
+    "put_object_cabinet": {
+      "clean": 39.0,
+      "randomized": 22.0
+    },
+    "rotate_qrcode": {
+      "clean": 90.0,
+      "randomized": 21.0
+    },
+    "scan_object": {
+      "clean": 49.0,
+      "randomized": 40.0
+    },
+    "shake_bottle_horizontally": {
+      "clean": 99.0,
+      "randomized": 100.0
+    },
+    "shake_bottle": {
+      "clean": 100.0,
+      "randomized": 100.0
+    },
+    "stack_blocks_three": {
+      "clean": 77.0,
+      "randomized": 25.0
+    },
+    "stack_blocks_two": {
+      "clean": 91.0,
+      "randomized": 43.0
+    },
+    "stack_bowls_three": {
+      "clean": 81.0,
+      "randomized": 52.0
+    },
+    "stack_bowls_two": {
+      "clean": 94.0,
+      "randomized": 70.0
+    },
+    "stamp_seal": {
+      "clean": 53.0,
+      "randomized": 21.0
+    },
+    "turn_switch": {
+      "clean": 52.0,
+      "randomized": 25.0
+    }
+  }
+}

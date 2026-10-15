@@ -1,0 +1,20 @@
+# Pinned OpenPI training stack and LeRobot 0.4.4 compatibility constraints.
+# TensorFlow/DROID RLDS is not used by this dataset pipeline.
+jax==0.5.3
+jaxlib==0.5.3
+flax==0.10.2
+orbax-checkpoint==0.11.13
+ml-dtypes==0.4.1
+numpy>=1.22.4,<2.0.0
+tensorstore==0.1.74
+lerobot==0.4.4
+torch==2.10.0
+torchvision==0.25.0
+torchcodec==0.10.0
+datasets>=4.0.0,<5.0.0
+av>=15.0.0,<16.0.0
+wandb>=0.24.0,<0.25.0
+fsspec==2025.3.0
+gcsfs==2025.3.0
+protobuf>=6.33.5,<7.0.0
+transformers==4.53.2
