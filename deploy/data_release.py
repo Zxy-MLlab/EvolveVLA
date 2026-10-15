@@ -119,7 +119,9 @@ def publish(args, plan):
                '--target', args.target, '--title', 'RoboTwin collected data and finalized training datasets (2026-10-15)',
                '--notes', '2800 accepted local trajectories, finalized local train/validation and 900 official replay episodes. '
                'SHA256 inventories and restoration instructions are in deploy/. No model weights.')
-            release = gh('api', f'repos/{REPOSITORY}/releases/tags/{plan["release_tag"]}', json_output=True)
+            # GitHub's releases/tags endpoint does not expose draft releases.
+            existing = gh('api', f'repos/{REPOSITORY}/releases?per_page=100', json_output=True)
+            release = next(v for v in existing if v['tag_name'] == plan['release_tag'])
         if not release['draft']:
             raise ValueError('Release already public; do not mutate a published data release')
     for package in selected:
