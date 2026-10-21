@@ -121,6 +121,10 @@ def worker(args, policy_cache=None):
                '--episode-steps', '2000', '--robotwin-root', c.CONFIG['robotwin_root'],
                '--task-config', 'demo_clean', '--first-instruction', spec['template'],
                '--first-instruction-seed', str(args.seed)]
+    if getattr(args, 'episode_index', None) is not None:
+        command.extend(['--episode-index', str(args.episode_index)])
+    if getattr(args, 'instruction', None) is not None:
+        command[command.index('--first-instruction') + 1] = args.instruction
     child = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, env=env,
                              cwd=c.CONFIG['robotwin_root'])
     result = dict(status='worker_error')

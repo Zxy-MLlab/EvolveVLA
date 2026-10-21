@@ -1,0 +1,990 @@
+{
+  "schema_version": 1,
+  "format": "recovery_suffix_npz_v1",
+  "operation": "build",
+  "status": "passed",
+  "dataset_ready": true,
+  "deployment_mode": "original",
+  "horizon": 50,
+  "padding_policy": "sample full real windows only",
+  "input_root": "/root/autodl-tmp/EvolveVLA/outputs/gen1_recovery_combo_inputs_20261020",
+  "attempted_readiness_files": 2,
+  "accepted_suffixes": 2,
+  "independent_source_episodes": 2,
+  "accepted_frames": 127,
+  "valid_training_starts": 29,
+  "episodes": [
+    {
+      "id": "place_mouse_pad_59008",
+      "task": "place_mouse_pad",
+      "parent_episode_uid": "af4554ca881192024a2e3d1ebc2d419892e0f7c0615323a429f3c6c395ab99a1",
+      "parent_episode_identity": {
+        "source_revision": "ba0fd21ad21c336bedc7bd8eacd3e514860910e2",
+        "task": "place_mouse_pad",
+        "seed": 59008,
+        "episode_index": 10,
+        "source_hdf5_sha256": "a54eba119b3b13cc63519dc7117c7958dc60a5bec8a759ac6fb19c846f3c8faa"
+      },
+      "split": "diagnostic_train",
+      "prompt": "With the right arm, grab the smooth plastic mouse and position it on Red mat.",
+      "takeover_boundary_step": 124,
+      "source_checkpoint_identity_sha256": "201fe2a2530f531f0a51a8e4526ac7cae3cc990eff60a7c28ca6712cf4664c8a",
+      "deployment_mode": "original",
+      "status": "passed",
+      "recovery_verified": true,
+      "dataset_ready": true,
+      "terminal_hold_provenance": {
+        "requested_ticks": 250,
+        "dense": {
+          "requested_ticks": 250,
+          "physics_ticks": 250,
+          "start_tick": 576,
+          "positions_preserved": true,
+          "command_velocity_intervention": "arm and gripper drive velocity targets set to zero",
+          "measured_state_reset": false,
+          "before_physical": {
+            "left": {
+              "measured_qpos": [
+                0.0009615595918148756,
+                0.005990465637296438,
+                -0.0025833353865891695,
+                -0.0033941108267754316,
+                0.0005518064135685563,
+                0.00116819073446095
+              ],
+              "drive_targets": [
+                0.0009614565642550588,
+                0.005994756706058979,
+                -0.0025885479990392923,
+                -0.003394179046154022,
+                0.0005517505924217403,
+                0.0011681964388117194,
+                1.0
+              ],
+              "tcp": [
+                -0.30046524857891777,
+                -0.19333535349906103,
+                0.9388531699119066
+              ]
+            },
+            "right": {
+              "measured_qpos": [
+                0.4103284776210785,
+                1.7323267459869385,
+                0.9001790881156921,
+                -0.7383506894111633,
+                -0.001983492635190487,
+                0.421745628118515
+              ],
+              "drive_targets": [
+                0.4099208414554596,
+                1.7331029176712036,
+                0.8999180197715759,
+                -0.738144040107727,
+                -0.001973605016246438,
+                0.42171451449394226,
+                1.0
+              ],
+              "tcp": [
+                0.19178560378262233,
+                -0.16569827349515875,
+                0.7813756450917281
+              ]
+            },
+            "mouse": {
+              "position": [
+                0.19073329865932465,
+                -0.15966656804084778,
+                0.7418842911720276
+              ],
+              "quaternion": [
+                0.0009474701364524662,
+                -0.0008138376288115978,
+                0.7074901461601257,
+                0.7067223191261292
+              ]
+            },
+            "target": {
+              "position": [
+                0.1906408965587616,
+                -0.15980647504329681,
+                0.7409999966621399
+              ],
+              "quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "initial_success": true,
+          "all_ticks_success": true,
+          "final_success": true,
+          "after_physical": {
+            "left": {
+              "measured_qpos": [
+                0.000961475947406143,
+                0.005991167388856411,
+                -0.0025798457209020853,
+                -0.0033941108267754316,
+                0.0005518144462257624,
+                0.0011682264739647508
+              ],
+              "drive_targets": [
+                0.0009614565642550588,
+                0.005994756706058979,
+                -0.0025885479990392923,
+                -0.003394179046154022,
+                0.0005517505924217403,
+                0.0011681964388117194,
+                1.0
+              ],
+              "tcp": [
+                -0.30046531920058905,
+                -0.1933355275702489,
+                0.9388546769596696
+              ]
+            },
+            "right": {
+              "measured_qpos": [
+                0.4100542366504669,
+                1.7329094409942627,
+                0.8999491930007935,
+                -0.7381569743156433,
+                -0.0019776509143412113,
+                0.4217190146446228
+              ],
+              "drive_targets": [
+                0.4099208414554596,
+                1.7331029176712036,
+                0.8999180197715759,
+                -0.738144040107727,
+                -0.001973605016246438,
+                0.42171451449394226,
+                1.0
+              ],
+              "tcp": [
+                0.1918966505075527,
+                -0.16575612772022275,
+                0.7811802033912969
+              ]
+            },
+            "mouse": {
+              "position": [
+                0.19073329865932465,
+                -0.15966656804084778,
+                0.7418842911720276
+              ],
+              "quaternion": [
+                0.0009474687394686043,
+                -0.0008138398407027125,
+                0.7074901461601257,
+                0.7067223191261292
+              ]
+            },
+            "target": {
+              "position": [
+                0.1906408965587616,
+                -0.15980647504329681,
+                0.7409999966621399
+              ],
+              "quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "success": true
+        },
+        "sparse": {
+          "requested_ticks": 250,
+          "physics_ticks": 250,
+          "start_tick": 1797,
+          "positions_preserved": true,
+          "command_velocity_intervention": "arm and gripper drive velocity targets set to zero",
+          "measured_state_reset": false,
+          "before_physical": {
+            "left": {
+              "measured_qpos": [
+                0.0009614751324988902,
+                0.005991167388856411,
+                -0.002579508116468787,
+                -0.0033941108267754316,
+                0.0005518141551874578,
+                0.0011682264739647508
+              ],
+              "drive_targets": [
+                0.0009614565642550588,
+                0.005994756706058979,
+                -0.0025885479990392923,
+                -0.003394179046154022,
+                0.0005517505924217403,
+                0.0011681964388117194,
+                1.0
+              ],
+              "tcp": [
+                -0.30046525926475065,
+                -0.19333543790077373,
+                0.9388548405152131
+              ]
+            },
+            "right": {
+              "measured_qpos": [
+                0.4099426865577698,
+                1.733005404472351,
+                0.8999487161636353,
+                -0.738131582736969,
+                -0.0019813308026641607,
+                0.42172983288764954
+              ],
+              "drive_targets": [
+                0.4099208414554596,
+                1.7331029176712036,
+                0.8999180197715759,
+                -0.738144040107727,
+                -0.001973605016246438,
+                0.42171451449394226,
+                0.8000000190734863
+              ],
+              "tcp": [
+                0.19192617412044996,
+                -0.16574743084452634,
+                0.7811558858911334
+              ]
+            },
+            "mouse": {
+              "position": [
+                0.19154910743236542,
+                -0.16009747982025146,
+                0.7419155240058899
+              ],
+              "quaternion": [
+                -0.00020659351139329374,
+                -0.002123872749507427,
+                0.7071054577827454,
+                0.7071049809455872
+              ]
+            },
+            "target": {
+              "position": [
+                0.1906408965587616,
+                -0.15980647504329681,
+                0.7409999966621399
+              ],
+              "quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "initial_success": true,
+          "all_ticks_success": true,
+          "final_success": true,
+          "after_physical": {
+            "left": {
+              "measured_qpos": [
+                0.0009614751324988902,
+                0.005991167388856411,
+                -0.002579508116468787,
+                -0.0033941108267754316,
+                0.0005518141551874578,
+                0.0011682264739647508
+              ],
+              "drive_targets": [
+                0.0009614565642550588,
+                0.005994756706058979,
+                -0.0025885479990392923,
+                -0.003394179046154022,
+                0.0005517505924217403,
+                0.0011681964388117194,
+                1.0
+              ],
+              "tcp": [
+                -0.30046525926475065,
+                -0.19333543790077373,
+                0.9388548405152131
+              ]
+            },
+            "right": {
+              "measured_qpos": [
+                0.4099426865577698,
+                1.7330056428909302,
+                0.8999469876289368,
+                -0.7381335496902466,
+                -0.0019740175921469927,
+                0.4217168092727661
+              ],
+              "drive_targets": [
+                0.4099208414554596,
+                1.7331029176712036,
+                0.8999180197715759,
+                -0.738144040107727,
+                -0.001973605016246438,
+                0.42171451449394226,
+                0.8000000190734863
+              ],
+              "tcp": [
+                0.19192763809249616,
+                -0.16574796893788427,
+                0.781155649536649
+              ]
+            },
+            "mouse": {
+              "position": [
+                0.19154910743236542,
+                -0.16009747982025146,
+                0.7419155240058899
+              ],
+              "quaternion": [
+                -0.00020659503934439272,
+                -0.002123874146491289,
+                0.7071054577827454,
+                0.7071049809455872
+              ]
+            },
+            "target": {
+              "position": [
+                0.1906408965587616,
+                -0.15980647504329681,
+                0.7409999966621399
+              ],
+              "quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "success": true
+        }
+      },
+      "frames": 55,
+      "valid_start_count": 6,
+      "valid_start_range": [
+        0,
+        6
+      ],
+      "horizon": 50,
+      "action_alignment": "observation at capture t; label is next capture drive target t+1",
+      "original_source_hdf5": "/root/autodl-tmp/EvolveVLA/data/gen1_task_batches_20261010/place_mouse_pad/episodes/episode_0000010/data/episode_0000010.hdf5",
+      "suffix_supervision_only": true,
+      "privileged_fields_not_in_model_inputs": true,
+      "capture_audit": {
+        "retained_captures": 56,
+        "transitions": 55,
+        "dropped_capture_records": [
+          {
+            "index": 56,
+            "physics_tick": 826,
+            "reason": "partial_final_interval"
+          }
+        ],
+        "raw_sha256": {
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000000.pkl": "4539f8817e8ab83b4705ede163c21d2ee48f811c4f10b17daa7e2c9c66adb9d8",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000001.pkl": "4c209cc0363d3a47f2a98f20a879ed0df5efe4a9452f551eea8bfbb76e7435e5",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000002.pkl": "c365a59de7b116a0a6d9253f8f90ee9edf1701ce28135ba1f8b0cb2582a36dce",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000003.pkl": "1728599c136f72d873697ad52a47be2cc7c7a903a60b3b7b2a3cde825ee45ae2",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000004.pkl": "e551e56a3a510b4b5a0b2afe36033f8f7111a16759c3894668fc043e229df9e7",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000005.pkl": "e06dfca7d3aa6b73c4ad6cd69504fb217b0900df1820cc9e760352ed2e77ad2f",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000006.pkl": "3f592b56b6dc90b89b466a84ccf76af09eac8c633c9fe16d3931ce44e99dba43",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000007.pkl": "7f6b3015534ee9877a4e959f22ba573cd32034d2fc870d2f4323ddbe07c2cf84",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000008.pkl": "f2e4cdf7be049cd5b910c10df078a0f651e33e8d638fb444781353c464dc0548",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000009.pkl": "8fbe818995a44662e6fc24cc7aead97c538c26bcbaea700bd6fb378e0e0e25f6",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000010.pkl": "191419ef123653422641d10ae58a34e435e10fdb21633b3ef4be5da014992d8d",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000011.pkl": "008e04b9a574ee6613da04207972513afdb9d26f6d9bf49bab2bffcec37bde02",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000012.pkl": "1ce5396d8134584bbbfd79009bd0bddcde5d27562d321d94c1eef28b92c9f4f5",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000013.pkl": "7114306a9e3de680df4d060202197c165fbcbafb6b78962fbb43d46cfa578ecf",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000014.pkl": "5864dcf664177ce6d4ecc337e6276adcc84c5fb068bdddb6d85d805e1bdc398e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000015.pkl": "0eefcde7ac98f8aa6bcf908421695b0f44822d15c24c39e8b027894ee7fb1794",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000016.pkl": "71f73c170a293819f0f08cc112f17f40b21474ed7336297af94d26eaf23899e9",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000017.pkl": "7a7a8924738bd30b4c70e618caa9b60f002f8a45dd9cedd1d3e4a1cbe1bf4ecf",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000018.pkl": "2030e68dc27e9e9dd2a04c5c396f8a46ef77f8962b3c2868f31f62f286d9e883",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000019.pkl": "d9c191782b7d283a67ea07ba13de3e0442b9e671156ab1d19b370247a43cae5d",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000020.pkl": "c9f3a28d014a4a443797f272b27c996fdf3faedba27b91d933a86219b37c3989",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000021.pkl": "b37ce72f1bea7f93d21eb269fad5b5389d2b158ace9ff4650d776601c459ad9d",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000022.pkl": "7306c2563cbbe2ab600166a721f5b28e467966e9f842391f70c60763a83f24dc",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000023.pkl": "ec6c67e73b3ce0335bcc66e1743407e87cc00feecac07b729b5a75966efa557f",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000024.pkl": "4072d60dbf14045130ba3b53aaeffe1694fc0bfeed31692d0ae02c6330fa5428",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000025.pkl": "dfbfb2fa885673500098c27376b717c5c7c9bb7e977bc26d35dbd72baf3ab18d",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000026.pkl": "9bd066efbbb76b250d27885f16736ddcbccc749806427f1241d9814b35c6f122",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000027.pkl": "f8a958c4c5f1d77dd32cb2908526ebdad2ad09af9e8ef1383a8b4a05f5198459",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000028.pkl": "102ba1af57a22838ccb19c96f92dc720f6f431afcc494e48683e409ed3355fd2",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000029.pkl": "daa4aceae659538af5ffa699d5f7091f5255ff84ad915ad14635381f5aaccf12",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000030.pkl": "c372f7244a6027258df38e6331f9f2c7f2fc842c6eee3cedb4bbe045b6e863fa",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000031.pkl": "58487ab4bfb96d7dea864470fa10dd33138288e0fa0117df62727f9fb092d637",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000032.pkl": "f9220f06b24479aa16d2145cb892ae79a2dbc19f83c7dd636e0c1ebd29c30acf",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000033.pkl": "7f29b1afc4d6401e689cfb95d23a9188dc26363a184a1e242b312e12626ee15a",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000034.pkl": "9e7cbf63103861c796541c7d33ae6be93779e798a16f85cdd2756202923d554f",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000035.pkl": "306cb27323e62143552474b6fc43b4abfec9a676fa16d980b1421b3d0c8ea3e5",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000036.pkl": "7b1e98de20b048eab983921ccb22b36f666f0cb5b1a2662a14a832d8950f8fc2",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000037.pkl": "f3d35f1fb9268145e93278a52374f2b528c331d93f060e70eaf9d5596b9cbd80",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000038.pkl": "9858176dcf834510c8a69baf017c0384d75a8eb2fafc2e75724ac45f4f472251",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000039.pkl": "3f1aa08f7604386ed335491aea8a09b8ab7e63b17ee81faab777309f57d35bd1",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000040.pkl": "1952a59c5b79f81b9aecdde23f12a9a61f2d6e92f195a5178ef3cfa7b18c6b20",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000041.pkl": "d256f995f38375295e84741a688846cdf7d41ea7fc48d115b94d499ab578c26c",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000042.pkl": "365339748ac572d635d1408194e19a45029063e0b5199aba5fb26761070e0c36",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000043.pkl": "f1035674caeecb24c7740f62ecda77baea4be6f1ced59d55bc544916a36f33e0",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000044.pkl": "37354228c87d1b9ba885b50fe6068714fb8ad9db08c3b36b5f5ef7bda2645117",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000045.pkl": "ffd6f2329beefbdb1d29deef7f996c28afa88f63832bd8c3f1deceeba1474699",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000046.pkl": "3543d087252b7dcc043b080fc0bf3185635e326affdf4d9b9ad4a86a7cfb239c",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000047.pkl": "5fc717a93273c1a77ce43b4f3156420b196da62fb015d678e4a0245d1428570e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000048.pkl": "53e85920b5d926895bff69031fb3860e6670483118db0d1673b61aae8562b582",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000049.pkl": "1d93ce3b4e7ce23e83504d5810012ba8168d5a68f3f052c2574d93a6e3483527",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000050.pkl": "1a8c4a42cc4a0123c7515b5a43b585fbb08dea32c8204f35b5bc961d41f709f8",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000051.pkl": "79826f14830f4434be97d8963bd7a9eeb7944c8a81f5b03e3fb0e71375349c25",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000052.pkl": "541662e6e25bebb2310aaa74211cc71971ef52e70197be86bfe39b366743b05e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000053.pkl": "b76fbc70deefd36a743875b5a284cf9dc97554a047f7976252db05e302098e01",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000054.pkl": "09d0cc5b47db13fbe4427b3e11acefacd7d5d75d2715cf8682e74a2b16d83e73",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_raw/0000055.pkl": "9adef1bc6a6a7894a8fad50bd3be5fc482acf5e068c72dfc6e85bbfc9a382340"
+        },
+        "max_float32_state_cast_error": 2.3063103760101455e-08,
+        "image_shapes": {
+          "cam_high": [
+            240,
+            320,
+            3
+          ],
+          "cam_left_wrist": [
+            240,
+            320,
+            3
+          ],
+          "cam_right_wrist": [
+            240,
+            320,
+            3
+          ]
+        },
+        "terminal_hold_transition_count": 17,
+        "expert_transition_count": 38,
+        "capture_interval_physics_ticks": 15,
+        "timestep": 0.004000000189989805,
+        "seconds_per_transition": 0.06000000284984708,
+        "actual_uniform_hz": 16.666665875042515
+      },
+      "evidence_sha256": {
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/readiness.json": "3d04d838b590fff87ba29a5f4ee43b212497bb611e25a31f7a938b19189fd7eb",
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/case.json": "d3d9de41f149eef0ebefe0420766c0f50727cf87944cc3fa574332c9d0c90eca",
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/result.json": "8f958d1debb681225d44b20bca4220d92e8caa7618ecba0ed1564cafeafe6144",
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/dense/uniform_captures.jsonl": "cff18d41fb3495a559e5bfb72740f2e03225ba39614e8e8d6ea155fd838e5669",
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/original/result.json": "0af573ab7c35ea3826531413dbe2733ea79dee0e6097b1f58c3fc529ade88790"
+      },
+      "source_readiness": "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_suffix_replay_dev3/place_mouse_pad_59008/readiness.json",
+      "dataset_path": "/root/autodl-tmp/EvolveVLA/outputs/gen1_suffix_dataset_combined_original_20261020/episode_000000.npz",
+      "dataset_sha256": "575f0687abbbaf3c095ed621c95bc99305150377c093e451e79abf461851e998",
+      "archive_roundtrip_exact": true
+    },
+    {
+      "id": "hanging_mug_87749",
+      "task": "hanging_mug",
+      "parent_episode_uid": "857607441d44a87c937ed298fbdc1c5730c5ee0855a6f008fe2aeed118f81e4b",
+      "parent_episode_identity": {
+        "source_revision": "ba0fd21ad21c336bedc7bd8eacd3e514860910e2",
+        "task": "hanging_mug",
+        "seed": 87749,
+        "episode_index": 604,
+        "source_hdf5_sha256": "6735d9522306df60b5b87dad9dc41484d16cd6922644833136b6193d63d2d79b"
+      },
+      "split": "diagnostic_train",
+      "prompt": "Use the left arm to grab the light beige ceramic drinking mug, rotate it, place it in the middle, then use the right arm to hang it onto the rack with two rods sticking out.",
+      "takeover_boundary_step": 291,
+      "source_checkpoint_identity_sha256": "201fe2a2530f531f0a51a8e4526ac7cae3cc990eff60a7c28ca6712cf4664c8a",
+      "deployment_mode": "original",
+      "status": "passed",
+      "recovery_verified": true,
+      "dataset_ready": true,
+      "terminal_hold_provenance": {
+        "requested_ticks": 250,
+        "dense": {
+          "requested_ticks": 250,
+          "physics_ticks": 250,
+          "start_tick": 839,
+          "positions_preserved": true,
+          "command_velocity_intervention": "arm and gripper drive velocity targets set to zero",
+          "measured_state_reset": false,
+          "before_physical": {
+            "left": {
+              "measured_qpos": [
+                0.023068301379680634,
+                0.010859019123017788,
+                0.005378060508519411,
+                0.004758387338370085,
+                -0.004875008016824722,
+                0.003615167224779725
+              ],
+              "drive_targets": [
+                0.02306806482374668,
+                0.010862560011446476,
+                0.005369029473513365,
+                0.004758448339998722,
+                -0.0048749870620667934,
+                0.003615105990320444,
+                1.0
+              ],
+              "tcp": [
+                -0.30628331723734026,
+                -0.1936581261087953,
+                0.9433595728562997
+              ]
+            },
+            "right": {
+              "measured_qpos": [
+                -0.2614925503730774,
+                2.1860191822052,
+                0.6727223992347717,
+                1.463401198387146,
+                -0.910973846912384,
+                0.5249610543251038
+              ],
+              "drive_targets": [
+                -0.2663153409957886,
+                2.181044340133667,
+                0.6693834066390991,
+                1.4664056301116943,
+                -0.9132879376411438,
+                0.5246973037719727,
+                1.0
+              ],
+              "tcp": [
+                0.28842917400005874,
+                0.007828233689927258,
+                0.844971320771786
+              ]
+            },
+            "mug": {
+              "position": [
+                0.18189984560012817,
+                0.13049335777759552,
+                0.8295915722846985
+              ],
+              "quaternion": [
+                0.26527661085128784,
+                0.8553248047828674,
+                0.4207271337509155,
+                -0.14504000544548035
+              ]
+            },
+            "rack": {
+              "position": [
+                0.23835721611976624,
+                0.14399735629558563,
+                0.7409999966621399
+              ],
+              "quaternion": [
+                -0.2593989372253418,
+                -0.2593989372253418,
+                0.6578086018562317,
+                0.6578086018562317
+              ]
+            }
+          },
+          "initial_success": true,
+          "all_ticks_success": true,
+          "final_success": true,
+          "after_physical": {
+            "left": {
+              "measured_qpos": [
+                0.023068301379680634,
+                0.010859034955501556,
+                0.005378060508519411,
+                0.004758387338370085,
+                -0.004875008016824722,
+                0.003615167224779725
+              ],
+              "drive_targets": [
+                0.02306806482374668,
+                0.010862560011446476,
+                0.005369029473513365,
+                0.004758448339998722,
+                -0.0048749870620667934,
+                0.003615105990320444,
+                1.0
+              ],
+              "tcp": [
+                -0.30628331723734026,
+                -0.1936581261087953,
+                0.9433595728562997
+              ]
+            },
+            "right": {
+              "measured_qpos": [
+                -0.263959139585495,
+                2.1816275119781494,
+                0.6701500415802002,
+                1.4663697481155396,
+                -0.9132620096206665,
+                0.5247049927711487
+              ],
+              "drive_targets": [
+                -0.2663153409957886,
+                2.181044340133667,
+                0.6693834066390991,
+                1.4664056301116943,
+                -0.9132879376411438,
+                0.5246973037719727,
+                1.0
+              ],
+              "tcp": [
+                0.28910314081359295,
+                0.007201448020222351,
+                0.8465358766709844
+              ]
+            },
+            "mug": {
+              "position": [
+                0.17728327214717865,
+                0.14463719725608826,
+                0.8349615335464478
+              ],
+              "quaternion": [
+                0.17204394936561584,
+                0.892344057559967,
+                0.37018364667892456,
+                -0.19258016347885132
+              ]
+            },
+            "rack": {
+              "position": [
+                0.23835721611976624,
+                0.14399735629558563,
+                0.7409999966621399
+              ],
+              "quaternion": [
+                -0.2593989372253418,
+                -0.2593989372253418,
+                0.6578086018562317,
+                0.6578086018562317
+              ]
+            }
+          },
+          "success": true
+        },
+        "sparse": {
+          "requested_ticks": 250,
+          "physics_ticks": 250,
+          "start_tick": 2485,
+          "positions_preserved": true,
+          "command_velocity_intervention": "arm and gripper drive velocity targets set to zero",
+          "measured_state_reset": false,
+          "before_physical": {
+            "left": {
+              "measured_qpos": [
+                0.023068301379680634,
+                0.010859034955501556,
+                0.005378060508519411,
+                0.004758387338370085,
+                -0.004875008016824722,
+                0.003615167224779725
+              ],
+              "drive_targets": [
+                0.02306806482374668,
+                0.010862560011446476,
+                0.005369029473513365,
+                0.004758448339998722,
+                -0.0048749870620667934,
+                0.003615105990320444,
+                1.0
+              ],
+              "tcp": [
+                -0.30628331723734026,
+                -0.1936581261087953,
+                0.9433595728562997
+              ]
+            },
+            "right": {
+              "measured_qpos": [
+                -0.06006484478712082,
+                2.309513568878174,
+                0.9757595658302307,
+                1.2944291830062866,
+                -0.7033461928367615,
+                0.5349098443984985
+              ],
+              "drive_targets": [
+                -0.061395980417728424,
+                2.3096179962158203,
+                0.9758675694465637,
+                1.2944127321243286,
+                -0.7033592462539673,
+                0.5349438190460205,
+                0.8000000238418579
+              ],
+              "tcp": [
+                0.22769680265464387,
+                0.085013640092085,
+                0.8428363391449413
+              ]
+            },
+            "mug": {
+              "position": [
+                0.17380927503108978,
+                0.1595819741487503,
+                0.8437901139259338
+              ],
+              "quaternion": [
+                0.18247327208518982,
+                0.9216666221618652,
+                0.19648654758930206,
+                -0.2804056406021118
+              ]
+            },
+            "rack": {
+              "position": [
+                0.23835721611976624,
+                0.14399735629558563,
+                0.7409999966621399
+              ],
+              "quaternion": [
+                -0.2593989372253418,
+                -0.2593989372253418,
+                0.6578086018562317,
+                0.6578086018562317
+              ]
+            }
+          },
+          "initial_success": true,
+          "all_ticks_success": true,
+          "final_success": true,
+          "after_physical": {
+            "left": {
+              "measured_qpos": [
+                0.023068301379680634,
+                0.010859034955501556,
+                0.005378060508519411,
+                0.004758387338370085,
+                -0.004875008016824722,
+                0.003615167224779725
+              ],
+              "drive_targets": [
+                0.02306806482374668,
+                0.010862560011446476,
+                0.005369029473513365,
+                0.004758448339998722,
+                -0.0048749870620667934,
+                0.003615105990320444,
+                1.0
+              ],
+              "tcp": [
+                -0.30628331723734026,
+                -0.1936581261087953,
+                0.9433595728562997
+              ]
+            },
+            "right": {
+              "measured_qpos": [
+                -0.06068533658981323,
+                2.309521198272705,
+                0.9758403897285461,
+                1.2944185733795166,
+                -0.703338623046875,
+                0.5349158048629761
+              ],
+              "drive_targets": [
+                -0.061395980417728424,
+                2.3096179962158203,
+                0.9758675694465637,
+                1.2944127321243286,
+                -0.7033592462539673,
+                0.5349438190460205,
+                0.8000000238418579
+              ],
+              "tcp": [
+                0.2280106733677078,
+                0.08508140174423474,
+                0.8428547274971868
+              ]
+            },
+            "mug": {
+              "position": [
+                0.17841483652591705,
+                0.15653029084205627,
+                0.8385587930679321
+              ],
+              "quaternion": [
+                0.21715590357780457,
+                0.9267669916152954,
+                0.17497967183589935,
+                -0.2516515851020813
+              ]
+            },
+            "rack": {
+              "position": [
+                0.23835721611976624,
+                0.14399735629558563,
+                0.7409999966621399
+              ],
+              "quaternion": [
+                -0.2593989372253418,
+                -0.2593989372253418,
+                0.6578086018562317,
+                0.6578086018562317
+              ]
+            }
+          },
+          "success": true
+        }
+      },
+      "frames": 72,
+      "valid_start_count": 23,
+      "valid_start_range": [
+        0,
+        23
+      ],
+      "horizon": 50,
+      "action_alignment": "observation at capture t; label is next capture drive target t+1",
+      "original_source_hdf5": "/root/autodl-tmp/EvolveVLA/data/gen1_task_batches_20261010/hanging_mug/episodes/episode_0000604/data/episode_0000604.hdf5",
+      "suffix_supervision_only": true,
+      "privileged_fields_not_in_model_inputs": true,
+      "capture_audit": {
+        "retained_captures": 73,
+        "transitions": 72,
+        "dropped_capture_records": [
+          {
+            "index": 73,
+            "physics_tick": 1089,
+            "reason": "partial_final_interval"
+          }
+        ],
+        "raw_sha256": {
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000000.pkl": "02d3a5921216b3042bf36db79587a1423295bfc1aec314adaef0d50faa5987a5",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000001.pkl": "c1812fe41b16af802d94309c5c6758b4c997794cb700ef0bdc653e84f1bfdff6",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000002.pkl": "a2fa65f50146bbf7d0cc8aa35a24a6fa86c1879f71d1952743f2d40bbdd5ff7e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000003.pkl": "085ebb22b144235b5c3124ab3c2afefb69b5fef57b85d76c0ef722dca73200cd",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000004.pkl": "96d5a77371ccda8cb0e991c37fb21bf4aeff8537a93f51849bdd1aebabcec500",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000005.pkl": "ca22d3eb0b3393ab4f34180af3917e7902307320c42578a9253bbef2ae596ce7",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000006.pkl": "51e17fd035c3ac2d627f647924c4256002cba720c7cdbcc3045bfa06bdd3b990",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000007.pkl": "1537b33938569c0db210e9c224c572e7aa806f3829d1c3158c9dd31afdb4f111",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000008.pkl": "3499c41177ef50fa79c1e495285a4ec476836c6299b51da4882856ffb8f2a20d",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000009.pkl": "970d4ff69e60dfc3f4fb7d3e41f622a0602f3355101141faf3f543351725fdc3",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000010.pkl": "fc74f83233c7ead78533d8441e149fea06f5313ade34fb49867c4898c0f0a921",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000011.pkl": "8ca62d37f9df6c7b5005e5d6bb883f5090eb19777697ce614fb67b3878bf8489",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000012.pkl": "a45601c9dc015ac3c98b43672450ea4ed9f548832bd010113c1ed37bf039f48e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000013.pkl": "26a973f777921173d1114f78504504afc711dd0561420d93fd926f45529b9d54",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000014.pkl": "60a66a57b229fad97e201e906a3ce539c8e55edabb5fc31a9206470181b7227f",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000015.pkl": "2303e50d44d026ef418ae42e3c67d965ee584d464cc56e468b1ac38190f23977",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000016.pkl": "4e2764eaa071dab04cf496b723e777358ed1bca2a51db49465ae421da80de4aa",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000017.pkl": "1c84a2ea96dc536daf4dbab3b59c2127b98f432dc5b86f4fa06071c2af10010e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000018.pkl": "55f0a539310f5a50b253a43868705648fc22b483c7e31b693d5d6116390afff6",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000019.pkl": "3f16432ae1813d3fc7c47e9776cfad760fb38b24e27b75db63b94d670c6fda0c",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000020.pkl": "4cfd78d566d731e397cdd3c7081486da9beda5e61f36b440293888ee5ee1f429",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000021.pkl": "e13b890e16f5e58e3fbbf4cf770511230c9aeb4d829c4aec3d37458f9c74bdf0",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000022.pkl": "1d20a788cc11567dbf6439961e967d1c3e921f4de0109b55812d4ad041ee46ed",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000023.pkl": "e9c574316abde26e48c55a4166eb6198104b8c624f2fc15dddc680364f66b4e0",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000024.pkl": "e0ecbed598fca34c918e149c574566b7cc28b131b101021e2f506c00a17f8c03",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000025.pkl": "29fd1e1e5ce6c4126c59d6a203ba4d804ca810cb65dfba3ae9c5308ce0fbef12",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000026.pkl": "5d42b80f8181ff9f39eff1092ab2c644a3c2147cbed2c360c260a2fa68c53317",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000027.pkl": "5fc621f951a32662c0300918ca0a0043d2b66f20731f83baab30d14637c79aeb",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000028.pkl": "5cca11463ce747c245a147fc4a8e7397a9fe5e90526f28b3c0a6ca78cee32c7d",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000029.pkl": "7d0c466df45991b7cee3608e3d2016357ff532774df705d1af8f45e2a85d5d61",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000030.pkl": "9d7bef10721ebc6bd92df51d1ecbe8db3ff34e7175a94ac0475415399f8c2251",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000031.pkl": "1cd6dde52311ce1cfac96e00c58e7731fb85fc0a33c425925cf9d7f6d537f8b3",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000032.pkl": "8d513568cf9c063d853f2cf6b40cd564bfe67eaa081bc6544d764b324a6168de",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000033.pkl": "a2191066683da8def8d584972b4a49bbe56deb675cea7daa497942321379435c",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000034.pkl": "3c2cae33dad1135c1b9a8a8ae41a24a088328cf0e8e8f8db50b10e9f8263b631",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000035.pkl": "e2d2ed8c8e423245c419241d77c5af3502a5de8425bd3d1f71c50ae8cfaae113",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000036.pkl": "59a89b0b3a3fb0e18bd2d184a29c797b3b6a6fa35bbda5da526e3632f629cded",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000037.pkl": "7f5a111ed965a8d3cbb5f6a52bdf1707aa07ef2ecfacab9513877be3f4989934",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000038.pkl": "86c5a9bad8e56eab442bb24123c2de6312e7b1126ce3c1d5dc10e34aa5e08455",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000039.pkl": "26b4223afb10725c2ccbe75fb5e5c34a3369021b0734ebcd063d3d789a568b8f",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000040.pkl": "e125cd44783993cd7de4289f7db94e7bf4a50443246272f46141b42cd2be310e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000041.pkl": "7a6eb41784ae4305766bcaa252faa3aa597f8007687132546c898fa5c2a98621",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000042.pkl": "4feaee2a7ec2e1b81dccd6273dc2a4a15aadc8760c71eaf6ee05b7878534d61c",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000043.pkl": "4a94d6a89e97542661a061e8f6dd367d68ec3575dacf8ad8eb17e430934f2293",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000044.pkl": "96cb89198f5cfe25782493d0eb5a7f739c945d47c85191a15cd6d87c9c451cdc",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000045.pkl": "846a890525d75b7c66c5eca5550e36b8754a1948cf593515d04f001a9a2e67f2",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000046.pkl": "788bb0db0306b141ec8c3cd0dca47c74851ed78c270bf77e9d04f2379bac7bb9",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000047.pkl": "02e0d94c2025d2acf98ce50c0b5f982d20996064995265033bfd0eb14c7eb178",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000048.pkl": "b2a14bdc376655c3dde5a210ffc99898e2c7ebebf357012a374d0d920552be74",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000049.pkl": "fc8a1132487c9df700ee344102ab6b7d3ea6988cab6b54ecf1fc21fcd3ce8d99",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000050.pkl": "34023418fbd9dff53e07c5f3a84c0c40d6680a9d524a17501e26aa584eb11898",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000051.pkl": "5117c3c5cc135f7310eeae4a66e726ce175d00c59c3d0a3e0ce3f31df7e38446",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000052.pkl": "9717888f93492134e4ae1071e931214510efa4352765d4abc6edd479b034b229",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000053.pkl": "a716b8c41dfc6eec22064b6a8813cf2f1f4de6ca49899243bc2f1e4e1d2f065f",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000054.pkl": "1e2e1c6c5b5c96e97a0f5ac873ab2b9ab869b8e2300bb93871621595eee28fb9",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000055.pkl": "80b7c569c27bb3aa442a583b35ece0e93503a4f07c4a99886a5805fe34c5adda",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000056.pkl": "4d146bb03ba422fe6074efbc0dab8bf496b2117d63bf49c1cc9d6649b1b05175",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000057.pkl": "76c81cca1531499caa36fa54ece3605c443e4ea25509a996d46564112b0f7256",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000058.pkl": "2c60cbf49f1a99d17fa519b68078a47b39c3b072e0e824caa1dfd87ebfb6e170",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000059.pkl": "177741a6c0608760e5df5469f1e3e3a66f517081de76a18491ee6d0e77834d34",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000060.pkl": "9666b5d71023265c8bf2b5d9631acb71423daf9d4fa24b90723289b0722ef74a",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000061.pkl": "793b0f53c1efd47f6ceeff4d42e6de64c073ef1b9182a72eb89fdc0ad7b3bcbb",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000062.pkl": "0d154a1f142a92f378000fa25350c68f477db73b994e563828d2e5a31125d5ce",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000063.pkl": "ad9d450722385d53ae02170bd42ec0638a0e16a84831ff11853bd5a29f3b8c6f",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000064.pkl": "cc546ead9d713cf9a21af8780965229705bee772b532ede50d3a496f1200d278",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000065.pkl": "5d695074ef161b0563f792409fa16bb1786008945dfb8b7982ab9335f617f00b",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000066.pkl": "4747f4004d0b8ab474f05e0320ba2959c9fc9699846f8f1cf3ced6fe3d4ab3a6",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000067.pkl": "fd0bd1ff18b1faf60e5b9de651ace4e8980f9923d7495c2c823d6024391fe913",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000068.pkl": "1dc03c252a79586090f226d300bec3cc89a29eaa12c7de0f292f8547b0c7eb48",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000069.pkl": "a39931a1f0e0e3b27d8b90350f767de0baa4de0c2a106cc47a7d311e6e94da5e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000070.pkl": "50e142c695197484137ece07cb17190c4d9734830ae6d038d2b444660d3c583e",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000071.pkl": "4eddf9bc26d9f0bee7357b1a90309b00d32b7bfa02328a637365aab1cca6fb25",
+          "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_raw/0000072.pkl": "2203e4a2f2f667389359d85639f7ec332127044b0e79d28cc5c4a0c5aaab0042"
+        },
+        "max_float32_state_cast_error": 2.9053520256283605e-08,
+        "image_shapes": {
+          "cam_high": [
+            240,
+            320,
+            3
+          ],
+          "cam_left_wrist": [
+            240,
+            320,
+            3
+          ],
+          "cam_right_wrist": [
+            240,
+            320,
+            3
+          ]
+        },
+        "terminal_hold_transition_count": 17,
+        "expert_transition_count": 55,
+        "capture_interval_physics_ticks": 15,
+        "timestep": 0.004000000189989805,
+        "seconds_per_transition": 0.06000000284984708,
+        "actual_uniform_hz": 16.666665875042515
+      },
+      "evidence_sha256": {
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/readiness.json": "851e4c2b0f204cdded1202ed1c7a0a863686923156fd898c8c11fad9ba140d32",
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/case.json": "6287b7d50e151e453bb736feb918d79c429cbe86f03b4c34d199d1277d6c0753",
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/result.json": "615546c5341a96b756e20e3687db5168eeb51197efd2a1096ec5a388fdbf6aca",
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/dense/uniform_captures.jsonl": "ec4ce45006c7c5512ed346f345cfb3827bd187e1bf7b21e2398127b3d4d298ca",
+        "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/original/result.json": "b257e4caca2fe3e3299c159fcc92fb8806ce9b5a1251d72562193b0741b4646e"
+      },
+      "source_readiness": "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_repro3/repeat_1/hanging_mug_87749/readiness.json",
+      "dataset_path": "/root/autodl-tmp/EvolveVLA/outputs/gen1_suffix_dataset_combined_original_20261020/episode_000001.npz",
+      "dataset_sha256": "afe476cf1e8e7e0cd0849b30c73cf28d146c559f2f2aedfb79e241f231421763",
+      "archive_roundtrip_exact": true
+    }
+  ],
+  "excluded": [],
+  "source_episode_splits": {
+    "af4554ca881192024a2e3d1ebc2d419892e0f7c0615323a429f3c6c395ab99a1": "diagnostic_train",
+    "857607441d44a87c937ed298fbdc1c5730c5ee0855a6f008fe2aeed118f81e4b": "diagnostic_train"
+  },
+  "normalization": {
+    "path": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k/assets/aloha_agilex_sim/norm_stats.json",
+    "sha256": "ec3f94d2763fb6e018cca42d6e0ee068eab53c041c522dbbc18ec0be9132ace8",
+    "recomputed": false,
+    "copied_path": "/root/autodl-tmp/EvolveVLA/outputs/gen1_suffix_dataset_combined_original_20261020/norm_stats.json"
+  },
+  "builder_sha256": "717c9a402a45f3658ee84356f51d192f410a139be9e855ea0ac1490559b64e3a",
+  "split_config_sha256": null,
+  "gpu_used": false,
+  "training_started": false,
+  "use_scope": "smallfit_diagnostic_only",
+  "limitations": [
+    "Successful dense recovery alone is insufficient; the selected sparse deployment replay must also pass.",
+    "Only RGB, drive-target state and next drive-target action are student inputs; expert geometry is provenance only.",
+    "Three or fewer source episodes support a fitting positive control, not a generalization claim.",
+    "This independent NPZ format needs a dedicated manifest-driven training loader; it is not the historical LeRobot split.",
+    "dataset_ready denotes data gate passage, not a trained or improved policy."
+  ]
+}

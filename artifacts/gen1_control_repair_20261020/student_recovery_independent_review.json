@@ -1,0 +1,24 @@
+{
+  "status": "passed_cpu_review",
+  "tests_passed": 4,
+  "sim_python_version": "3.10.21",
+  "findings": {
+    "partial_first_message": "Original binding and instruction retained; observation replaced by last exact prefix response",
+    "counts": "Prefix actions execute once; continuation ceiling decremented; total step indices restored; original simulator action limit retained",
+    "randomness": "Both JAX keys reset to0 before any inference; no inference occurs during prefix so takeover uses same first noise sample, not a zero-valued noise tensor",
+    "hashes": "Protocol/sourcecase/result/collector/duration runner hashes verified; source cases match frozen collector manifest",
+    "rejection": "Nonoriginal controller, incomplete prefix and recorded physical drift rejected before student inference"
+  },
+  "required_pair_checks": [
+    "same frozen protocol and prefix source identities",
+    "same threeRGB/state/prompt takeover hashes",
+    "same original controller and full-episode action budget",
+    "both completed without infrastructure or source-parity errors"
+  ],
+  "limitation": "Known training failure prefix externally replayed; conditional recovery diagnostic, not end-to-end or new-scene generalization",
+  "source_sha256": {
+    "/root/autodl-tmp/EvolveVLA/scripts/gen1_recovery_student_eval_20261020.py": "de43cfd1b057131a896653ed2f28d6bfbfc8f327713dd4012860cc8d5196096e",
+    "/root/autodl-tmp/EvolveVLA/scripts/test_gen1_recovery_student_eval_review_20261020.py": "025b5db0a71ef96943eb0bdf6df19898f67187198c9bbd240c6dd64961ab0f83",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/student_recovery_protocol.json": "6a7d5b78ebad2e6d092bd60806fde4d56c5cddebb6d1bd70f7fd6d6f11468e8d"
+  }
+}

@@ -42,3 +42,9 @@
 
 当前为经过实机运行验证的实验快照，保留了 `/root/autodl-tmp/EvolveVLA` 的绝对路径。
 请按部署说明使用相同的物理路径；不要批量改路径后跳过 provenance 或 hash 检查。
+
+2026-10-20 的闭环诊断、配对审计、路由决策和小样本纠偏数据保存在
+`artifacts/gen1_control_repair_20261020/`、`artifacts/gen1_task_routing_20261020/`
+和 `artifacts/gen1_recovery_smallfit_combined_train_20261020/`。总索引见
+`artifacts/current_asset_manifest_20261021.json`。诊断结论是纠偏状态覆盖不足；24k
+LoRA 候选未通过独立配对规则，因此路由仍固定到原始 Myungkyu checkpoint。

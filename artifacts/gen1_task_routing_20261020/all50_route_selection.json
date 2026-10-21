@@ -1,0 +1,310 @@
+{
+  "status": "passed",
+  "tasks": 50,
+  "task_source": "historical completed50-task baseline directories",
+  "checks": "pure route selection for all50 canonical task IDs; no new rollout",
+  "records": [
+    {
+      "task": "adjust_bottle",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "beat_block_hammer",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "blocks_ranking_size",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "click_alarmclock",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "click_bell",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "grab_roller",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "handover_block",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "handover_mic",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "hanging_mug",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "lift_pot",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "move_can_pot",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "move_pillbottle_pad",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "move_playingcard_away",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "move_stapler_pad",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "open_laptop",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "open_microwave",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "pick_diverse_bottles",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "pick_dual_bottles",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_a2b_left",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_a2b_right",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_bread_basket",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_bread_skillet",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_burger_fries",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_can_basket",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_cans_plasticbox",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_container_plate",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_dual_shoes",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_empty_cup",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_fan",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_mouse_pad",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_object_basket",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_object_scale",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_object_stand",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_phone_stand",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "place_shoe",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "press_stapler",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "put_bottles_dustbin",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "put_object_cabinet",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "rotate_qrcode",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "scan_object",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "shake_bottle",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "shake_bottle_horizontally",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "stack_blocks_three",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "stack_blocks_two",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "stack_bowls_three",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "stack_bowls_two",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "stamp_seal",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    },
+    {
+      "task": "turn_switch",
+      "selected_role": "baseline",
+      "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+      "controller_mode": "original"
+    }
+  ],
+  "gpu_used": false,
+  "retention_success_rate_measured": false
+}

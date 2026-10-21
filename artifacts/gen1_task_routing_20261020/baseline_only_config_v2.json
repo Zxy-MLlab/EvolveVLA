@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "baseline_only_after_validation",
+  "baseline": {
+    "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k",
+    "identity_sha256": "4cfdd56a75f89160c1e913101bb243e4aa817b69cdb41c72ff7d7ee6384ed0e3",
+    "controller_mode": "original",
+    "identity_reference": "/root/autodl-tmp/EvolveVLA/outputs/gen1_timing_validation_20261020/baseline_policy_ab/manifest.json",
+    "identity_reference_sha256": "f59d83698cf499f13b700569a2fcade33d78aee7964a016d6f45f54b1405ce2c"
+  },
+  "target_routes": {
+    "hanging_mug": {
+      "status": "disabled",
+      "candidate": null,
+      "reason": "Candidate did not meet the frozen promotion rule; select baseline with original controller."
+    },
+    "place_mouse_pad": {
+      "status": "disabled",
+      "candidate": null,
+      "reason": "Candidate did not meet the frozen promotion rule; select baseline with original controller."
+    }
+  },
+  "runtime_sources_sha256": {
+    "/root/autodl-tmp/EvolveVLA/scripts/gen1_task_routing_v2_20261020.py": "3f1323f15b7055b6235bac73b3cf8a3f3156efc1191fd9a77ae1470bb94fd306",
+    "/root/autodl-tmp/EvolveVLA/scripts/robotwin_public_openpi_harness.py": "8ec525f79e55821929725930276667974193f2f975bd0103f5c7334d0da38ab8",
+    "/root/autodl-tmp/EvolveVLA/scripts/gen1_duration_controller_20261020.py": "6687c6ce3e8d8f0a4fd67f191bcf05a272a5abbddbbe448f2c36c5e05e8802be",
+    "/root/autodl-tmp/EvolveVLA/scripts/robotwin_eval_harness.py": "75e00cdb42b6ca5921c1df01448cca6eddffd15580faae904173e46f1169f816",
+    "/root/autodl-tmp/EvolveVLA/scripts/robotwin_obs_bridge.py": "150630ad9e6b3ce7ac3165709b4f5138f928f9c7b8ee501ecc3589d286b1a3a0",
+    "/root/autodl-tmp/EvolveVLA/scripts/pi05_openpi_adapter.py": "3ed7e78e92b8a1f37b9bfc1f3ebf21066e159c307bc9d211d2c149f168e2fbd7",
+    "/root/autodl-tmp/EvolveVLA/robotwin_repo_ba0fd21/envs/_base_task.py": "74ebc7305d5b987c9cfd0d3ed12acb039386c8aa21c68024c308e11a192f45b9",
+    "/root/autodl-tmp/EvolveVLA/robotwin_repo_ba0fd21/envs/robot/robot.py": "3dcd80acc8cab489a4c5edb507cc460dab1724be0226b8d5c4c1b218dee605cb",
+    "/root/autodl-tmp/EvolveVLA/robotwin_repo_ba0fd21/scripts/eval_policy_xpolicylab.py": "e8d1f1b30759f4617a0774f106a169c24874d822e65d023371789a2a7b3bdfe7",
+    "/root/autodl-tmp/EvolveVLA/scripts/gen1_task_routing_20261020.py": "06afd1eaf41abdc87b77a07bd97315f0b440542a7a6796e49a7b8e602cf41ed3"
+  },
+  "notes": [
+    "Optional launcher only; existing defaults are unchanged.",
+    "All routes currently fall back to baseline with original controller.",
+    "Candidate restore verification does not certify closed-loop performance."
+  ],
+  "compatibility_note": "v2 supplies absent public-harness episode_index=None in-process, leaving original controller unchanged; v1 smoke failed before scene setup and is preserved.",
+  "decision_utc": "2026-10-20T08:37:53.425624+00:00",
+  "decision": {
+    "rule": "Keep pinned baseline when candidate fails the pre-registered per-task promotion rule.",
+    "reason": "The 24k model failed promotion on both target tasks; step600 recovery smallfit had no matched conditional success change.",
+    "evidence_sha256": {
+      "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/route_confirmation/independent_summary.json": "286394293bfd34eb86f8c9e8dfc5461bc327a568f0451f3a1b1674af40ebea1e",
+      "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/student_after600_independent_audit.json": "01d36b94f9da771410a63d06ea33dfe8dac901499ea25fd93f87da45f7bcc2ca"
+    }
+  }
+}

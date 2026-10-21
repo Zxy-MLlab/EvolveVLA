@@ -127,3 +127,12 @@ tail -n 20 logs/gen1_expanded_lora_b64_train_20261015.log
 
 当前发布前验证包括源代码静态检查、数据分卷构建/恢复测试以及原训练机仍正常更新。
 完整新服务器依赖安装尚未在本机执行，以免影响正在运行的训练；部署脚本不构成目标机器已跑通的证明。
+
+## 8. 当前诊断资产
+
+当前源码快照还包含 2026-10-20 的闭环诊断脚本和审计资产。入口报告是
+`artifacts/gen1_control_repair_20261020/root_cause_final.md`，其中记录了固定新 seed
+配对、执行时长对照、专家纠偏重放和 600 步小样本训练的结果。该报告明确指出 24k
+LoRA 候选没有达到启用条件；`artifacts/gen1_task_routing_20261020/baseline_only_config_v2.json`
+继续将两个目标任务路由到原始 checkpoint。小样本纠偏数据位于同一诊断目录的
+`suffix_dataset/`，仅用于复现实验诊断，不是已验收的生产模型。

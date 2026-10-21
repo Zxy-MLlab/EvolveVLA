@@ -335,6 +335,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--controlled-case", action="store_true",
                         help="run exactly one scheduled seed; reject without substitution")
+    parser.add_argument("--episode-index", type=int, default=None,
+                        help="optional original collection episode index for exact reset replay")
     parser.add_argument("--first-instruction")
     parser.add_argument("--first-instruction-seed", type=int)
     parser.add_argument("--output", type=Path)
@@ -1042,10 +1044,11 @@ def run_simulator(args: argparse.Namespace) -> int:
             episode_info = {"info": {}}
             video_process = None
             episode_started = False
+            reset_episode_index = accepted if args.episode_index is None else args.episode_index
             try:
                 if not SKIP_EXPERT:
                     task_env.setup_demo(
-                        now_ep_num=accepted,
+                        now_ep_num=reset_episode_index,
                         seed=seed,
                         is_test=True,
                         **task_args,
@@ -1067,7 +1070,7 @@ def run_simulator(args: argparse.Namespace) -> int:
                         continue
 
                 task_env.setup_demo(
-                    now_ep_num=accepted,
+                    now_ep_num=reset_episode_index,
                     seed=seed,
                     is_test=True,
                     **task_args,

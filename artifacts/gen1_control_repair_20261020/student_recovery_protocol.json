@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "cases": [
+    "place_mouse_pad_59008",
+    "hanging_mug_88038",
+    "hanging_mug_87749"
+  ],
+  "source_sha256": {
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_takeover_dev3_v2/manifest.json": "6194fc04fd09a50bc0e57a6b0b87990cf5390a85083d3d839eefdd348da9fe64",
+    "/root/autodl-tmp/EvolveVLA/scripts/gen1_recovery_student_eval_20261020.py": "de43cfd1b057131a896653ed2f28d6bfbfc8f327713dd4012860cc8d5196096e",
+    "/root/autodl-tmp/EvolveVLA/scripts/gen1_recovery_takeover_v2_20261020.py": "0433ee23fda43a498d9639917505b1df1b7700be3d9cf444f18fbdd28e4770db",
+    "/root/autodl-tmp/EvolveVLA/scripts/gen1_policy_duration_repair_20261020.py": "39a3ac4779d2090d8302171a8390f6b5fa6499fbf9b8f2b894a7fa799ec04349",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_takeover_dev3_v2/place_mouse_pad_59008/case.json": "be99b1e1065380e0c862fad2b51c8eb747de1d86bd86844b1cf8d4f965961972",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_takeover_dev3_v2/place_mouse_pad_59008/result.json": "b16334f4e56120b10b701d144e8695980b1c274459cd1cbbd08d5d438a38ffd1",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_takeover_dev3_v2/hanging_mug_88038/case.json": "7861dc2459fe3fd8a1655220a9073ef5831a5faa8550cf61c96bddabf8811bad",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_takeover_dev3_v2/hanging_mug_88038/result.json": "a5b013312ac4d3ab4ad6907c62a335c393c94b5af361eee5ccd99ea1bb01d5f1",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_takeover_dev3_v2/hanging_mug_87749/case.json": "1a9f7363d5d8cf63024c1597cbbd1628ce3b1136a28ee1ebb98185880eb7636a",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_control_repair_20261020/recovery_takeover_dev3_v2/hanging_mug_87749/result.json": "ba6dad06a1904fd04526579b548422f8a518d3400a6d7652ec156f97cfc97430"
+  },
+  "before_checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/gen1_expanded_lora_step24000_export_20261015",
+  "after_checkpoint": "Only a separately validated recovery smallfit export may be compared",
+  "controller": "original",
+  "noise": "Both models reset explicit JAX inference key0 at takeover, no inference during replayed prefix",
+  "compare_required": [
+    "frozen protocol and prefix source hashes",
+    "exact target/tick/physical prefix",
+    "identical takeover three RGB arrays/state/prompt hashes",
+    "original task success and original full-episode action limit"
+  ],
+  "limitation": "Known training failures with externally forced policy prefixes; conditional recovery rates are not end-to-end or novel-seed rates."
+}

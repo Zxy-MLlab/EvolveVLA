@@ -1,0 +1,476 @@
+{
+  "source_files_sha256": {
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_replay_expanded_lora_b64_20261015/validation_0000.json": "2b8e5c3182d9f83c067f196a5955a28679f2b9b47f854c23979e576786585b83",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_replay_expanded_lora_b64_20261015/validation_24000.json": "cb0c0a648b06b53514250e5a9d46d93ccbf33f7b1c77a61a76f9719ccacde02b",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_replay_expanded_lora_b64_20261015/run_config.json": "61604ba17d72c05fe28cdf73b55ee51222e323e4dced26b27e50fa42b88bcc0b",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_replay_expanded_lora_b64_20261015/selection.json": "18eef94a0913140d7c42ead2a8081caf4b1e4dde6fb9cc35639a331e55501f91"
+  },
+  "same_anchor_ids": true,
+  "anchors_per_task": {
+    "handover_block": 40,
+    "hanging_mug": 40,
+    "lift_pot": 40,
+    "move_can_pot": 40,
+    "move_pillbottle_pad": 40,
+    "move_stapler_pad": 40,
+    "pick_diverse_bottles": 40,
+    "place_bread_basket": 40,
+    "place_bread_skillet": 40,
+    "place_can_basket": 40,
+    "place_dual_shoes": 40,
+    "place_mouse_pad": 40,
+    "place_object_scale": 40,
+    "put_bottles_dustbin": 40,
+    "put_object_cabinet": 40,
+    "scan_object": 40,
+    "stack_blocks_three": 40,
+    "stamp_seal": 40
+  },
+  "episodes_per_task": {
+    "handover_block": 5,
+    "hanging_mug": 5,
+    "lift_pot": 5,
+    "move_can_pot": 5,
+    "move_pillbottle_pad": 5,
+    "move_stapler_pad": 5,
+    "pick_diverse_bottles": 5,
+    "place_bread_basket": 5,
+    "place_bread_skillet": 5,
+    "place_can_basket": 5,
+    "place_dual_shoes": 5,
+    "place_mouse_pad": 5,
+    "place_object_scale": 5,
+    "put_bottles_dustbin": 5,
+    "put_object_cabinet": 5,
+    "scan_object": 5,
+    "stack_blocks_three": 5,
+    "stamp_seal": 5
+  },
+  "metrics": {
+    "handover_block": {
+      "joint_mae": {
+        "before": 0.036506978897978305,
+        "after": 0.04539210732376796,
+        "change_percent": 24.338164082598723
+      },
+      "gripper_mae": {
+        "before": 0.0416228090300605,
+        "after": 0.01710130724227484,
+        "change_percent": -58.913615777531824
+      },
+      "first10_joint_mae": {
+        "before": 0.012851957243059884,
+        "after": 0.01200396344396429,
+        "change_percent": -6.598168536185522
+      },
+      "first10_gripper_mae": {
+        "before": 0.019718115098046943,
+        "after": 0.008561050026751732,
+        "change_percent": -56.58281745398832
+      }
+    },
+    "hanging_mug": {
+      "joint_mae": {
+        "before": 0.035173829954067856,
+        "after": 0.016607063633365143,
+        "change_percent": -52.78573969609888
+      },
+      "gripper_mae": {
+        "before": 0.018889763407737258,
+        "after": 0.013026246593817282,
+        "change_percent": -31.040710713815912
+      },
+      "first10_joint_mae": {
+        "before": 0.012543806832082527,
+        "after": 0.00840177933182631,
+        "change_percent": -33.0204981287053
+      },
+      "first10_gripper_mae": {
+        "before": 0.011709106641754034,
+        "after": 0.0024689923968310096,
+        "change_percent": -78.91391314153107
+      }
+    },
+    "lift_pot": {
+      "joint_mae": {
+        "before": 0.07660997961827314,
+        "after": 0.0770579205811118,
+        "change_percent": 0.5847031484287557
+      },
+      "gripper_mae": {
+        "before": 0.037981343887218244,
+        "after": 0.061982301577978224,
+        "change_percent": 63.19143883383482
+      },
+      "first10_joint_mae": {
+        "before": 0.022364527789990103,
+        "after": 0.02061951564086198,
+        "change_percent": -7.802588838513969
+      },
+      "first10_gripper_mae": {
+        "before": 0.022438774132114137,
+        "after": 0.02509675040096776,
+        "change_percent": 11.845461134392155
+      }
+    },
+    "move_can_pot": {
+      "joint_mae": {
+        "before": 0.022204360721051173,
+        "after": 0.017179027705999578,
+        "change_percent": -22.632189587369
+      },
+      "gripper_mae": {
+        "before": 0.021311440166845715,
+        "after": 0.022206784050959518,
+        "change_percent": 4.201235942311832
+      },
+      "first10_joint_mae": {
+        "before": 0.00945866671638265,
+        "after": 0.007229143576773453,
+        "change_percent": -23.57121998756555
+      },
+      "first10_gripper_mae": {
+        "before": 0.007112761625152282,
+        "after": 0.006037567394497311,
+        "change_percent": -15.116410296288418
+      }
+    },
+    "move_pillbottle_pad": {
+      "joint_mae": {
+        "before": 0.016695121811500298,
+        "after": 0.016359667219589757,
+        "change_percent": -2.0092970611299443
+      },
+      "gripper_mae": {
+        "before": 0.023361984004097995,
+        "after": 0.025016509848072854,
+        "change_percent": 7.082128999337711
+      },
+      "first10_joint_mae": {
+        "before": 0.010211525398387643,
+        "after": 0.009862837108623497,
+        "change_percent": -3.4146542868042307
+      },
+      "first10_gripper_mae": {
+        "before": 0.011358012506993774,
+        "after": 0.011691874942108275,
+        "change_percent": 2.9394441581123587
+      }
+    },
+    "move_stapler_pad": {
+      "joint_mae": {
+        "before": 0.0271323276149958,
+        "after": 0.03226620117828251,
+        "change_percent": 18.921611282805184
+      },
+      "gripper_mae": {
+        "before": 0.014159853785609175,
+        "after": 0.01831977825620548,
+        "change_percent": 29.378301030368583
+      },
+      "first10_joint_mae": {
+        "before": 0.011096150259061716,
+        "after": 0.009570233258067423,
+        "change_percent": -13.751769445877382
+      },
+      "first10_gripper_mae": {
+        "before": 0.00599787318633047,
+        "after": 0.0073038010112889285,
+        "change_percent": 21.773181666040387
+      }
+    },
+    "pick_diverse_bottles": {
+      "joint_mae": {
+        "before": 0.04143805201154615,
+        "after": 0.03472327453679845,
+        "change_percent": -16.204375323619736
+      },
+      "gripper_mae": {
+        "before": 0.012545600412901236,
+        "after": 0.01274528831873834,
+        "change_percent": 1.5916966846142744
+      },
+      "first10_joint_mae": {
+        "before": 0.020917877116657067,
+        "after": 0.015771180669220404,
+        "change_percent": -24.60429621387492
+      },
+      "first10_gripper_mae": {
+        "before": 0.012121772840682898,
+        "after": 0.011009459654241844,
+        "change_percent": -9.176159304915588
+      }
+    },
+    "place_bread_basket": {
+      "joint_mae": {
+        "before": 0.023816297087389093,
+        "after": 0.024403989895546117,
+        "change_percent": 2.4676078149370007
+      },
+      "gripper_mae": {
+        "before": 0.015298392211767098,
+        "after": 0.016296394536877222,
+        "change_percent": 6.523576538601805
+      },
+      "first10_joint_mae": {
+        "before": 0.016687632057017943,
+        "after": 0.016956294483965288,
+        "change_percent": 1.6099493686664745
+      },
+      "first10_gripper_mae": {
+        "before": 0.005038355794363453,
+        "after": 0.006211263005513046,
+        "change_percent": 23.27956299675691
+      }
+    },
+    "place_bread_skillet": {
+      "joint_mae": {
+        "before": 0.036775927549553014,
+        "after": 0.03550443091373827,
+        "change_percent": -3.457415544724174
+      },
+      "gripper_mae": {
+        "before": 0.026625063348603723,
+        "after": 0.036953969498181236,
+        "change_percent": 38.79392140533322
+      },
+      "first10_joint_mae": {
+        "before": 0.017847443886759497,
+        "after": 0.012802162220597307,
+        "change_percent": -28.268931384091022
+      },
+      "first10_gripper_mae": {
+        "before": 0.017305035059211625,
+        "after": 0.016106605230258447,
+        "change_percent": -6.925324478410944
+      }
+    },
+    "place_can_basket": {
+      "joint_mae": {
+        "before": 0.02848845886057023,
+        "after": 0.023877845442886726,
+        "change_percent": -16.184144745242346
+      },
+      "gripper_mae": {
+        "before": 0.007953562632340316,
+        "after": 0.009230329836551912,
+        "change_percent": 16.052771106875774
+      },
+      "first10_joint_mae": {
+        "before": 0.016097396879923058,
+        "after": 0.012751297604707074,
+        "change_percent": -20.78658618021212
+      },
+      "first10_gripper_mae": {
+        "before": 0.0008347682823505517,
+        "after": 0.0009695823426012836,
+        "change_percent": 16.14987812799027
+      }
+    },
+    "place_dual_shoes": {
+      "joint_mae": {
+        "before": 0.061990923644545635,
+        "after": 0.056252993324317845,
+        "change_percent": -9.256081346890287
+      },
+      "gripper_mae": {
+        "before": 0.023478105299943312,
+        "after": 0.023649855229965017,
+        "change_percent": 0.7315323269383223
+      },
+      "first10_joint_mae": {
+        "before": 0.024881768310353793,
+        "after": 0.020602344372077603,
+        "change_percent": -17.199034589898655
+      },
+      "first10_gripper_mae": {
+        "before": 0.005624417140575194,
+        "after": 0.006423519686992142,
+        "change_percent": 14.207739690076139
+      }
+    },
+    "place_mouse_pad": {
+      "joint_mae": {
+        "before": 0.03591352461145718,
+        "after": 0.021550110718801516,
+        "change_percent": -39.9944423390664
+      },
+      "gripper_mae": {
+        "before": 0.020094038216281813,
+        "after": 0.013774226106916952,
+        "change_percent": -31.45117990391817
+      },
+      "first10_joint_mae": {
+        "before": 0.010563687586496244,
+        "after": 0.006005566469025352,
+        "change_percent": -43.14895797654621
+      },
+      "first10_gripper_mae": {
+        "before": 0.00959480333299605,
+        "after": 0.006196839349576662,
+        "change_percent": -35.414628789044166
+      }
+    },
+    "place_object_scale": {
+      "joint_mae": {
+        "before": 0.01729228423658209,
+        "after": 0.018440858440287727,
+        "change_percent": 6.64211961815786
+      },
+      "gripper_mae": {
+        "before": 0.020686398087242507,
+        "after": 0.016506692604001436,
+        "change_percent": -20.20509063788507
+      },
+      "first10_joint_mae": {
+        "before": 0.009705293583715625,
+        "after": 0.006007490109886553,
+        "change_percent": -38.10089248648351
+      },
+      "first10_gripper_mae": {
+        "before": 0.010674713715570095,
+        "after": 0.00933785091362184,
+        "change_percent": -12.52364079795707
+      }
+    },
+    "put_bottles_dustbin": {
+      "joint_mae": {
+        "before": 0.021420979229004385,
+        "after": 0.01526413967721495,
+        "change_percent": -28.74210131091003
+      },
+      "gripper_mae": {
+        "before": 0.01114991641651088,
+        "after": 0.009243635032299243,
+        "change_percent": -17.09682219131976
+      },
+      "first10_joint_mae": {
+        "before": 0.012025590638457317,
+        "after": 0.006815160456210058,
+        "change_percent": -43.32785256787746
+      },
+      "first10_gripper_mae": {
+        "before": 0.0037757815447755578,
+        "after": 0.004992918935843542,
+        "change_percent": 32.235376348827785
+      }
+    },
+    "put_object_cabinet": {
+      "joint_mae": {
+        "before": 0.053045377139638195,
+        "after": 0.046480756148782554,
+        "change_percent": -12.375481794718402
+      },
+      "gripper_mae": {
+        "before": 0.03361563470427842,
+        "after": 0.033637163052116045,
+        "change_percent": 0.06404266356121457
+      },
+      "first10_joint_mae": {
+        "before": 0.019263622952997144,
+        "after": 0.015442944285068089,
+        "change_percent": -19.833645401238563
+      },
+      "first10_gripper_mae": {
+        "before": 0.008890383160393261,
+        "after": 0.007776253683321586,
+        "change_percent": -12.531849943601214
+      }
+    },
+    "scan_object": {
+      "joint_mae": {
+        "before": 0.034438354914281204,
+        "after": 0.03251986446846118,
+        "change_percent": -5.57079584839415
+      },
+      "gripper_mae": {
+        "before": 0.008982492775955486,
+        "after": 0.00932495228931694,
+        "change_percent": 3.812522001444374
+      },
+      "first10_joint_mae": {
+        "before": 0.01770104711894302,
+        "after": 0.016034476484985266,
+        "change_percent": -9.415096309044058
+      },
+      "first10_gripper_mae": {
+        "before": 0.017705782814548793,
+        "after": 0.01852485133635607,
+        "change_percent": 4.625994401864286
+      }
+    },
+    "stack_blocks_three": {
+      "joint_mae": {
+        "before": 0.014321631506111982,
+        "after": 0.08062253807798055,
+        "change_percent": 462.9424136738444
+      },
+      "gripper_mae": {
+        "before": 0.009313915815432946,
+        "after": 0.008500546712191377,
+        "change_percent": -8.732837179973597
+      },
+      "first10_joint_mae": {
+        "before": 0.008110650682692233,
+        "after": 0.012651517800939826,
+        "change_percent": 55.98647131897323
+      },
+      "first10_gripper_mae": {
+        "before": 0.0037369830966576013,
+        "after": 0.0031120276642359612,
+        "change_percent": -16.723528478911433
+      }
+    },
+    "stamp_seal": {
+      "joint_mae": {
+        "before": 0.013836409244184144,
+        "after": 0.01606177741049459,
+        "change_percent": 16.083422563161264
+      },
+      "gripper_mae": {
+        "before": 0.02354075997257301,
+        "after": 0.026805412228632003,
+        "change_percent": 13.86808352773059
+      },
+      "first10_joint_mae": {
+        "before": 0.009241843075393882,
+        "after": 0.0090529641239338,
+        "change_percent": -2.0437368381959087
+      },
+      "first10_gripper_mae": {
+        "before": 0.014859129181798233,
+        "after": 0.013445152010915895,
+        "change_percent": -9.515881809644656
+      }
+    },
+    "all": {
+      "joint_mae": {
+        "before": 0.033172267702929435,
+        "after": 0.03392025370541262,
+        "change_percent": 2.2548533889262368
+      },
+      "gripper_mae": {
+        "before": 0.020589504120855535,
+        "after": 0.02079563294528311,
+        "change_percent": 1.0011354485161217
+      },
+      "first10_joint_mae": {
+        "before": 0.01453169378490952,
+        "after": 0.01214338174670742,
+        "change_percent": -16.435193815343464
+      },
+      "first10_gripper_mae": {
+        "before": 0.010472031619684161,
+        "after": 0.009181464443662407,
+        "change_percent": -12.323942697001499
+      }
+    }
+  },
+  "loss_semantics": "Training flow-matching velocity MSE averages all32 model action dimensions, all50 chunk positions. Robot actions use14 dimensions. This differs from sampled physical-action MAE and rollout success; padded dimensions alone are not established as failure cause.",
+  "selected_by_existing_offline_rule": {
+    "step": 9000,
+    "score": 0.9874085725797426,
+    "checkpoint": "/root/autodl-tmp/EvolveVLA/checkpoints/gen1_replay_expanded_lora_b64_20261015/9000"
+  },
+  "limitation": "Existing held-out expert anchors;5episodes per task and8starts per episode. Neither rollouts nor independent evidence for a unique training hyperparameter cause."
+}

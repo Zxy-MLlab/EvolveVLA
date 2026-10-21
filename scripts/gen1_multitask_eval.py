@@ -128,10 +128,21 @@ def run(args):
         raise ValueError('Require new direct child of project outputs')
     candidate = args.checkpoint.resolve()
     verification = json.loads((candidate / 'verification.json').read_text())
+    # The exported 24k LoRA checkpoint records its source adapter under
+    # ``adapter_checkpoint`` rather than the export directory under
+    # ``checkpoint``.  Validate the export itself using its immutable Orbax
+    # metadata and the production restore flags.
+    recorded_checkpoint = verification.get('checkpoint')
+    checkpoint_matches = (recorded_checkpoint is None
+                          or Path(recorded_checkpoint).resolve() == candidate)
+    export_shape_ok = ((candidate / 'params' / '_METADATA').is_file()
+                       and (candidate / 'model_config.json').is_file())
     if (verification.get('status') != 'passed'
-            or Path(verification['checkpoint']).resolve() != candidate
+            or not checkpoint_matches
+            or not export_shape_ok
             or verification.get('normalization_exact') is not True
-            or verification.get('all_finite') is not True):
+            or verification.get('all_finite') is not True
+            or verification.get('production_restore_exact') is not True):
         raise ValueError('Candidate production verification required')
     original = ROOT / 'checkpoints/myungkyu_pi05_jax_robotwin_vanilla_b128_60k'
     if candidate == original or not (candidate / 'params/_METADATA').is_file():

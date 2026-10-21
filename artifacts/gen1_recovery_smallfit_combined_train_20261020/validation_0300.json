@@ -1,0 +1,83 @@
+{
+  "step": 300,
+  "anchors": 6,
+  "metrics": {
+    "hanging_mug": {
+      "joint_mae": 0.011330421153946106,
+      "gripper_mae": 0.024942341075875982,
+      "first10_joint_mae": 0.010728817880341407,
+      "first10_gripper_mae": 0.024430228898682713
+    },
+    "place_mouse_pad": {
+      "joint_mae": 0.003709724605205076,
+      "gripper_mae": 0.007261547088212992,
+      "first10_joint_mae": 0.004366859991264881,
+      "first10_gripper_mae": 0.0014461894705107144
+    },
+    "all": {
+      "joint_mae": 0.007520072879575591,
+      "gripper_mae": 0.016101944082044486,
+      "first10_joint_mae": 0.007547838935803144,
+      "first10_gripper_mae": 0.012938209184596714
+    }
+  },
+  "records": [
+    {
+      "task": "place_mouse_pad",
+      "episode": 0,
+      "frame": 0,
+      "joint_mae": 0.004549303387222605,
+      "gripper_mae": 0.015449666700121198,
+      "first10_joint_mae": 0.004917581533179343,
+      "first10_gripper_mae": 0.001438205367419166
+    },
+    {
+      "task": "place_mouse_pad",
+      "episode": 0,
+      "frame": 2,
+      "joint_mae": 0.004075890772065056,
+      "gripper_mae": 0.004457373082580589,
+      "first10_joint_mae": 0.004996619895706624,
+      "first10_gripper_mae": 0.001600917503353988
+    },
+    {
+      "task": "place_mouse_pad",
+      "episode": 0,
+      "frame": 5,
+      "joint_mae": 0.0025039796563275647,
+      "gripper_mae": 0.001877601481937187,
+      "first10_joint_mae": 0.003186378544908676,
+      "first10_gripper_mae": 0.0012994455407589897
+    },
+    {
+      "task": "hanging_mug",
+      "episode": 1,
+      "frame": 0,
+      "joint_mae": 0.012916136113758575,
+      "gripper_mae": 0.021888752738578335,
+      "first10_joint_mae": 0.009118598491147075,
+      "first10_gripper_mae": 0.002257197929304868
+    },
+    {
+      "task": "hanging_mug",
+      "episode": 1,
+      "frame": 11,
+      "joint_mae": 0.015940930975072244,
+      "gripper_mae": 0.0316070990379128,
+      "first10_joint_mae": 0.019163093529387987,
+      "first10_gripper_mae": 0.0009315086862862068
+    },
+    {
+      "task": "hanging_mug",
+      "episode": 1,
+      "frame": 22,
+      "joint_mae": 0.005134196373007501,
+      "gripper_mae": 0.021331171451136815,
+      "first10_joint_mae": 0.003904761620489158,
+      "first10_gripper_mae": 0.07010198008045707
+    }
+  ],
+  "scope": "training_fit_only",
+  "held_out": false,
+  "generalization_evidence": false
+}

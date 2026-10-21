@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-21",
+  "source_project": "/root/autodl-tmp/EvolveVLA",
+  "git_repository": "https://github.com/Zxy-MLlab/EvolveVLA.git",
+  "training_data_release": "data-20261015-v1",
+  "training_data_release_url": "https://github.com/Zxy-MLlab/EvolveVLA/releases/tag/data-20261015-v1",
+  "training_data_release_verified": "53/53 packages remote_verified; inventory SHA256 matched at publication audit",
+  "included_diagnostic_assets": [
+    {
+      "path": "artifacts/gen1_control_repair_20261020/commands.md",
+      "bytes": 498,
+      "sha256": "5b51a69def9b08247a94c706b3a2cf025339af99be643a9ac1f4b48166434435"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/progress_summary.md",
+      "bytes": 9248,
+      "sha256": "f16bbe1f12393a2c725441ccd79352a7292e778b76619743d0019f0f1dfc6f64"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/protocol_data.md",
+      "bytes": 10051,
+      "sha256": "9723dd2118ae54a06c91299dab1ce660fa901fc439f677047e80ce4254e6e8cf"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/recovery_feasibility.md",
+      "bytes": 19058,
+      "sha256": "fcae0259191e0acf032bba99b1f2682778396362cba6b47f5b177280be9b296d"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/root_cause_final.md",
+      "bytes": 5018,
+      "sha256": "3048390792b2e5c3998a4b9e4bbe1a255363f7066437291a76779c7a8d24b770"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/route_confirmation/independent_summary.json",
+      "bytes": 218392,
+      "sha256": "286394293bfd34eb86f8c9e8dfc5461bc327a568f0451f3a1b1674af40ebea1e"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/route_confirmation/independent_summary.md",
+      "bytes": 2264,
+      "sha256": "6e66564b73959135fff1a9a2ae9d3c086b98ec2f8f792a5a01dbd138d2d14dc4"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/student_after600_independent_audit.json",
+      "bytes": 4045,
+      "sha256": "01d36b94f9da771410a63d06ea33dfe8dac901499ea25fd93f87da45f7bcc2ca"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/student_recovery_independent_review.json",
+      "bytes": 1740,
+      "sha256": "2da2218e85a6f08b6b29d6bce72fb632852f18b9207346e416bf76c0a900abb6"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/student_recovery_protocol.json",
+      "bytes": 2684,
+      "sha256": "6a7d5b78ebad2e6d092bd60806fde4d56c5cddebb6d1bd70f7fd6d6f11468e8d"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/suffix_dataset/episode_000000.npz",
+      "bytes": 8275433,
+      "sha256": "575f0687abbbaf3c095ed621c95bc99305150377c093e451e79abf461851e998"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/suffix_dataset/episode_000001.npz",
+      "bytes": 11547133,
+      "sha256": "afe476cf1e8e7e0cd0849b30c73cf28d146c559f2f2aedfb79e241f231421763"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/suffix_dataset/manifest.json",
+      "bytes": 58373,
+      "sha256": "11e20b6baa345a6246a3bea84730427924155a7b78fcd7032bd7d2a1a1aa4626"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/suffix_dataset/norm_stats.json",
+      "bytes": 3351,
+      "sha256": "ec3f94d2763fb6e018cca42d6e0ee068eab53c041c522dbbc18ec0be9132ace8"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/training_metric_evidence.json",
+      "bytes": 15075,
+      "sha256": "71e99f593be60ac0dd8c09ec893603973268dbbb6bc393f43ee686370c6f9a1a"
+    },
+    {
+      "path": "artifacts/gen1_control_repair_20261020/training_metric_evidence.md",
+      "bytes": 1263,
+      "sha256": "96075af11420d925f3a9faf972c95bde8a7b0c5e8c051c5230e2a842b5d59080"
+    },
+    {
+      "path": "artifacts/gen1_task_routing_20261020/README.md",
+      "bytes": 4222,
+      "sha256": "19991d600eba0f9530c7f8f9ab7ad8a1042c15b6011560a9889d991d35a06777"
+    },
+    {
+      "path": "artifacts/gen1_task_routing_20261020/README_v2.md",
+      "bytes": 1894,
+      "sha256": "25b40d11104a073b4a037af24bbc5071e6582d077cbd8656dddad1469d03d15a"
+    },
+    {
+      "path": "artifacts/gen1_task_routing_20261020/all50_route_selection.json",
+      "bytes": 11445,
+      "sha256": "a6ed274f6d53bca968934e5760b9fa2212e6cf39ff389d82618d87e96e679f30"
+    },
+    {
+      "path": "artifacts/gen1_task_routing_20261020/baseline_only_config_v2.json",
+      "bytes": 3549,
+      "sha256": "0fb0415f6163c03b9f39abef80c7ef03e58f7f34730b1450c72685dc23bd9467"
+    },
+    {
+      "path": "artifacts/gen1_task_routing_20261020/baseline_only_route_selection.json",
+      "bytes": 11558,
+      "sha256": "fc202e3edfbbe76fa8c89a33f168c50ee30de436a5c1d1a263e0fa03ecf949b4"
+    },
+    {
+      "path": "artifacts/gen1_task_routing_20261020/recovery_training_plan.md",
+      "bytes": 8480,
+      "sha256": "716143fdef40f5bd8cd18e18194ffc63edabc2eb4ce57632963bd2558a09e62d"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/adapter_initial_sha256.json",
+      "bytes": 2359,
+      "sha256": "819c7bc4b274bee28b146c12af1f7dbe4fb38bea9c5eb79a04b3cf83c69121e1"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/completed.json",
+      "bytes": 813,
+      "sha256": "d1794942b2f700a2ef66054874d5e1a9756bd400d4368fbbe8b5bba5ddc57452"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/frozen_initial_sha256.json",
+      "bytes": 6083,
+      "sha256": "fa08359ac89bf40c92a673db2e61d2baf74cc7bac651f43ec4f48bef178aaf9d"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/metrics.jsonl",
+      "bytes": 90766,
+      "sha256": "27d3f7cee124c9f70ec716e3e1419b498d8217174e4269d260bd697ee283da69"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/restore_verification.json",
+      "bytes": 222,
+      "sha256": "c122454a0ffffc2c85be6437e05d9d8c0529916e2dbac75b1570da6bff6c7b4d"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/run_config.json",
+      "bytes": 11152,
+      "sha256": "7222b085158cd37f142529093e78afa26e35ceefeab331ec94ba97c5cd22cc89"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/validation_0000.json",
+      "bytes": 2381,
+      "sha256": "fc779334a0bebe53a953bed4419a8bdda0e38452c3ed994fb05859ed41183267"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/validation_0100.json",
+      "bytes": 2373,
+      "sha256": "9d86b33637d4dd33e2a02ca8b5a3f5ef6b2f68adfefdcf955785cbaacd5df7c1"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/validation_0300.json",
+      "bytes": 2383,
+      "sha256": "22190a0a40c72a405237297a3997f6582bc9b466bff89af76f970aa4fce6e618"
+    },
+    {
+      "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/validation_0600.json",
+      "bytes": 2391,
+      "sha256": "1de5ad83f51176737c5f332cd95bc7fcd3d09c12ea271d0c932a1afae1fa0d17"
+    }
+  ],
+  "checkpoint_policy": "Public Myungkyu base checkpoint is downloaded by deploy/bootstrap.py model. Local historical and LoRA checkpoints are not committed or released; the current 24k candidate remains disabled by route confirmation.",
+  "reproducibility": "Clone the repository at this snapshot, run deploy/bootstrap.py upstream/environments/model/simulation-assets, restore data-20261015-v1 with deploy/data_release.py, then run deploy/bootstrap.py verify and deploy/start_experiment.py."
+}

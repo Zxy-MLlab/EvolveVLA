@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "steps": 600,
+  "frozen_parameters_unchanged": true,
+  "adapters_updated": true,
+  "per_suffix_samples": [
+    2432,
+    2368
+  ],
+  "actual_success_rate": null,
+  "held_out_validation": false,
+  "primary_checkpoint_step": 600,
+  "intermediate_checkpoints_not_selected": true,
+  "note": "Overfit diagnostic only; evaluate paired rollout before any deployment selection.",
+  "export_command": [
+    "/root/autodl-tmp/conda_envs/scratch_orbax/bin/python",
+    "/root/autodl-tmp/EvolveVLA/scripts/gen1_replay_lora_export.py",
+    "--training",
+    "/root/autodl-tmp/EvolveVLA/outputs/gen1_recovery_smallfit_combined_train_20261020",
+    "--step",
+    "600",
+    "--output",
+    "/root/autodl-tmp/EvolveVLA/checkpoints/gen1_recovery_smallfit_combined_train_20261020_step600_export"
+  ]
+}

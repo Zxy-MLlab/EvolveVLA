@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "typed_restore": true,
+  "exact_keys_and_shapes": true,
+  "lora_b_leaves": 10,
+  "nonzero_lora_b_leaves": 10,
+  "reset_lora_b": false,
+  "optimizer_restored": false,
+  "optimizer_restart": true
+}

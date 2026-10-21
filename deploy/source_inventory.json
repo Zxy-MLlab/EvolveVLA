@@ -392,6 +392,21 @@
       "sha256": "e32f2c8bff0707dff4ff6c71856b2d5e2c076d17458b79d3b03e0d961aea0c41"
     },
     {
+      "path": "scripts/gen1_approach_replan_20261020.py",
+      "bytes": 7698,
+      "sha256": "187ba6bed2d19d045ac0ef5ab1b249dff96fb6f03857f9f12371dd993b644831"
+    },
+    {
+      "path": "scripts/gen1_approach_replan_audit_20261020.py",
+      "bytes": 5521,
+      "sha256": "0dc17a5652b7e5662940277fc8125fb63550c9e55750cba25d2a9a2da3cecf13"
+    },
+    {
+      "path": "scripts/gen1_causal_diagnosis_summary_20261019.py",
+      "bytes": 52297,
+      "sha256": "f3401dcc6538884ca9d3318091e9562f28bf00c12220281ac8ac263d9f043776"
+    },
+    {
       "path": "scripts/gen1_collect_task_batch_20261010.py",
       "bytes": 20468,
       "sha256": "d8086927fb645a5f7b932847ff49dba78130a813d104aa0d071cc6e98d67a337"
@@ -400,6 +415,11 @@
       "path": "scripts/gen1_collect_two_tasks_1000_20261014.py",
       "bytes": 2167,
       "sha256": "48443fd70f8658c907e27d4110ec14f99213390df4f29f20b962c80a4450effa"
+    },
+    {
+      "path": "scripts/gen1_control_repair_progress_audit_20261020.py",
+      "bytes": 27665,
+      "sha256": "efa12cafc2788965dc0555a117c5d5eedc3f30fbf2bd12280c44be1bf6c5925a"
     },
     {
       "path": "scripts/gen1_convert_ready.py",
@@ -422,14 +442,49 @@
       "sha256": "e222713511a3c8e35c8593681cf4da2fb24bfce4e068b08bbce0db133bf0a210"
     },
     {
+      "path": "scripts/gen1_duration_controller_20261020.py",
+      "bytes": 14531,
+      "sha256": "6687c6ce3e8d8f0a4fd67f191bcf05a272a5abbddbbe448f2c36c5e05e8802be"
+    },
+    {
+      "path": "scripts/gen1_execution_horizon_ablation_20261019.py",
+      "bytes": 22562,
+      "sha256": "679537d95419a6c5fe65fdb668f71de6c9e378fd6a3920d78110bdc011767901"
+    },
+    {
       "path": "scripts/gen1_expanded_train_rollouts_20261015.py",
       "bytes": 7693,
       "sha256": "72663bb43a72df2395d23c204ba652ce47e281631a264324a370f2078a7e0973"
     },
     {
+      "path": "scripts/gen1_expert_dense_replay_20261019.py",
+      "bytes": 10295,
+      "sha256": "dead413b416078ce136e227d814953a8dff69b1c600354da77bd4d1ada512eab"
+    },
+    {
       "path": "scripts/gen1_expert_gate_diagnostic.py",
       "bytes": 13075,
       "sha256": "7f1aed857947eb51a7c97783cc516d1a9ab76fb615f545c5b908ec6738837a50"
+    },
+    {
+      "path": "scripts/gen1_expert_gripper_timing_replay_20261019.py",
+      "bytes": 11139,
+      "sha256": "bd05b68e1b862c55a00d22b744723cd5f0654d56f25b1d9f6a75db0920d7837a"
+    },
+    {
+      "path": "scripts/gen1_expert_label_replay_20261019.py",
+      "bytes": 19915,
+      "sha256": "b098ab29d2032f5fd0d2c0e0bc79808ce2789d6b71f9762f0336841b2d13d0df"
+    },
+    {
+      "path": "scripts/gen1_expert_label_replay_v2_20261019.py",
+      "bytes": 9303,
+      "sha256": "29d668dff67bdc18d22675022aff6301e8c6f8dd44ef2b6eee080d44dbc7b07e"
+    },
+    {
+      "path": "scripts/gen1_expert_retime_continue_20261019.py",
+      "bytes": 8646,
+      "sha256": "be8890c9b640d11d687d7eb2d89434effbe3e6dc69b151663824681647a4cee9"
     },
     {
       "path": "scripts/gen1_export_eval_videos.py",
@@ -457,9 +512,19 @@
       "sha256": "ce4c479774a8f11397bf9e6b7d7bb7a1af89ed29fee207febe45dc72651afbf7"
     },
     {
+      "path": "scripts/gen1_final_reporting_review_20261020.py",
+      "bytes": 17532,
+      "sha256": "d27ddc80e077d51a07500dec42d66dfb9830c48a64a7ed0c884d887aec492186"
+    },
+    {
       "path": "scripts/gen1_full_sampler_event_audit.py",
       "bytes": 6462,
       "sha256": "4f47ed77e2d0e14ee368ba7372a3cd6a933ea113294c52a664bd3711746a5fde"
+    },
+    {
+      "path": "scripts/gen1_horizon_stage_audit_20261019.py",
+      "bytes": 11576,
+      "sha256": "d63cedcbf04c15a3150c9e0b6c2d5c12044c94e19f603705dcdd2694734da8b4"
     },
     {
       "path": "scripts/gen1_mouse_rollout_stages.py",
@@ -488,8 +553,8 @@
     },
     {
       "path": "scripts/gen1_multitask_eval.py",
-      "bytes": 11628,
-      "sha256": "a25785633fce507e71a8f2e7b8307d664af90899dd0400cf94cb5969ef296aed"
+      "bytes": 12299,
+      "sha256": "da0f4fcb7d198e2fa3ceb5e6fb250b48484d869cecab9e2e3c4a3014f67dbbcf"
     },
     {
       "path": "scripts/gen1_multitask_prompts.py",
@@ -532,6 +597,16 @@
       "sha256": "b56de2d7edfe2a4b0754400f9322cec8dbc397a1a56a137ed0293061c5f549f2"
     },
     {
+      "path": "scripts/gen1_phase_anchor_metadata_20261019.py",
+      "bytes": 8794,
+      "sha256": "87dd94b8ea14bd05c2590912971e81618f6755f4010c6d99dcf983a9c35dcb63"
+    },
+    {
+      "path": "scripts/gen1_phase_prediction_audit_20261019.py",
+      "bytes": 9936,
+      "sha256": "67dc1ab6369fde4ccb67d039fdcb038bdb9b4bccb6d8dc24b0e3acde6e9c5d83"
+    },
+    {
       "path": "scripts/gen1_phaseaware_after.py",
       "bytes": 7511,
       "sha256": "7f3569b378ad8ecb07d59871cb2f216f4c996ebd595794683dc39cea53d30073"
@@ -540,6 +615,26 @@
       "path": "scripts/gen1_physical_diagnostic.py",
       "bytes": 22143,
       "sha256": "e9636d99b84d54ad1240d0c991b64e125f44146564eaacc4f5c2ac3ebe6d7fa4"
+    },
+    {
+      "path": "scripts/gen1_policy_duration_repair_20261020.py",
+      "bytes": 21134,
+      "sha256": "39a3ac4779d2090d8302171a8390f6b5fa6499fbf9b8f2b894a7fa799ec04349"
+    },
+    {
+      "path": "scripts/gen1_policy_fallback_phase_audit_20261020.py",
+      "bytes": 9989,
+      "sha256": "8ff321d18056329b9df23883e091ec79cd93ddb831b1d95613321f0e0c800916"
+    },
+    {
+      "path": "scripts/gen1_policy_independent_review_20261020.py",
+      "bytes": 15381,
+      "sha256": "27a5578a44369554f5abe6514d35ac8c2af70948058a5cf24d0e8ae2d5c693d2"
+    },
+    {
+      "path": "scripts/gen1_policy_timing_ab_20261020.py",
+      "bytes": 17726,
+      "sha256": "82faa5ea955b8c475a42161f4a6e74d7fd113081cbb489b228f9a2ba399a9c94"
     },
     {
       "path": "scripts/gen1_prepare_expanded_20261014.py",
@@ -555,6 +650,11 @@
       "path": "scripts/gen1_prepare_pilot.py",
       "bytes": 3893,
       "sha256": "a7c010205fae87ce4a90db71d52132d793942b11c6a3c06f9bb0c7d42219d0c5"
+    },
+    {
+      "path": "scripts/gen1_prepare_route_confirmation_20261020.py",
+      "bytes": 11872,
+      "sha256": "d350774309b7693befde422f50c68a90b822e66bfcae11b2595d0bbf38999347"
     },
     {
       "path": "scripts/gen1_prompt_augmentation.py",
@@ -593,8 +693,8 @@
     },
     {
       "path": "scripts/gen1_recovery_eval.py",
-      "bytes": 15162,
-      "sha256": "fdaef07de83c7eeb2c7046a597f7c9180d85488ce38e936fec30d9b83a97f3ce"
+      "bytes": 15420,
+      "sha256": "817a1a98b3966205dccba61b19498a4a84e3878ac055563a95ba47d7899f2f71"
     },
     {
       "path": "scripts/gen1_recovery_native_after_confirmation.py",
@@ -612,6 +712,11 @@
       "sha256": "d357f8fe2b2c0df9e6402f4bdf2e5da05e0ea261a39c03e7f63bede971024eb8"
     },
     {
+      "path": "scripts/gen1_recovery_observables_20261020.py",
+      "bytes": 4071,
+      "sha256": "007837e98945e3093daeb1ada58e5b878ff8a4cf09aba65f1911177e7052e19a"
+    },
+    {
       "path": "scripts/gen1_recovery_padding_audit.py",
       "bytes": 7992,
       "sha256": "009cf1a2d53cc4b73ab3b89af37ccc16a8b44ba4b751ea4582acd9918de77aef"
@@ -622,9 +727,49 @@
       "sha256": "08b1a0e59bfb9be00045d852ab5760d92d00e5a5c5f7528f74a5206c273a5c2a"
     },
     {
+      "path": "scripts/gen1_recovery_repro3_audit_20261020.py",
+      "bytes": 7258,
+      "sha256": "3e3fb8da2b4ac127d01b9b0329da62065bfca180b5470202153a9b1d74dc4e0a"
+    },
+    {
       "path": "scripts/gen1_recovery_saved_confirm.py",
       "bytes": 2314,
       "sha256": "6cebc298b864ddbe9aaebcf2baaa649d352b34f94077b74579d26e14b3781360"
+    },
+    {
+      "path": "scripts/gen1_recovery_smallfit_20261020.py",
+      "bytes": 23120,
+      "sha256": "cbc00cfd80f81bc4cca8e93eecf7301103ab40489f3444877286542f82658ff9"
+    },
+    {
+      "path": "scripts/gen1_recovery_student_eval_20261020.py",
+      "bytes": 6803,
+      "sha256": "de43cfd1b057131a896653ed2f28d6bfbfc8f327713dd4012860cc8d5196096e"
+    },
+    {
+      "path": "scripts/gen1_recovery_suffix_dataset_20261020.py",
+      "bytes": 17517,
+      "sha256": "717c9a402a45f3658ee84356f51d192f410a139be9e855ea0ac1490559b64e3a"
+    },
+    {
+      "path": "scripts/gen1_recovery_suffix_independent_audit_20261020.py",
+      "bytes": 11938,
+      "sha256": "fedc610fb433e15c36ec670ba96fbd7acaefd6ef771f8d59766f09f0a5094323"
+    },
+    {
+      "path": "scripts/gen1_recovery_suffix_replay_20261020.py",
+      "bytes": 21434,
+      "sha256": "1262d336c93379e835dd90c0f0b624f5323b1e9edce04a37a6d86cc101b5b94a"
+    },
+    {
+      "path": "scripts/gen1_recovery_takeover_20261020.py",
+      "bytes": 26995,
+      "sha256": "af468cdee63d9eb867eabd3bd7d5df81643f955c5e8e8e407dab467914de5dd5"
+    },
+    {
+      "path": "scripts/gen1_recovery_takeover_v2_20261020.py",
+      "bytes": 29829,
+      "sha256": "0433ee23fda43a498d9639917505b1df1b7700be3d9cf444f18fbdd28e4770db"
     },
     {
       "path": "scripts/gen1_recovery_train.py",
@@ -697,9 +842,34 @@
       "sha256": "5f0910bdb745853ab3524523cf2942fdd772163d50e0e6d7ac23a358ae591280"
     },
     {
+      "path": "scripts/gen1_route_confirmation_20261020.py",
+      "bytes": 6317,
+      "sha256": "7280d8de8f6a08d8fd0a3ec861f985425ab4278e5a98b79b5c5141fe975ab3ae"
+    },
+    {
+      "path": "scripts/gen1_route_confirmation_audit_20261020.py",
+      "bytes": 14454,
+      "sha256": "52c057109e7deeed5a96b5e2f186da1e48b103677c973bcc893ee745f9c5cca7"
+    },
+    {
       "path": "scripts/gen1_run_pilot_20261010.sh",
       "bytes": 3257,
       "sha256": "ac539f01ae07bc9c171f383a632759cd51ef9b4ab7cadf6c805f22e91ebd5698"
+    },
+    {
+      "path": "scripts/gen1_same_seed_rollout.py",
+      "bytes": 3659,
+      "sha256": "35d7022e641b853c1d915c553075daa00787cf0ff084bef117b5c61c96c52a18"
+    },
+    {
+      "path": "scripts/gen1_same_training_sample_rollout.py",
+      "bytes": 5388,
+      "sha256": "712cc6e1b7560f2a09b04c0c68da834e61094a3b97e9e01b1ff79ce114b4ea20"
+    },
+    {
+      "path": "scripts/gen1_suffix_image_transport_audit_20261020.py",
+      "bytes": 11630,
+      "sha256": "f0eba6f402a6a2adb296e4780bb9c61dcaeec8b335b4526c9a7eeddf6b678c75"
     },
     {
       "path": "scripts/gen1_target_audit_correction.py",
@@ -712,9 +882,29 @@
       "sha256": "97da7f8601e21b7ff10e05ce65fb07d7cccce4a4bbc5285cf5b6857eeacd8f0a"
     },
     {
+      "path": "scripts/gen1_task_routing_20261020.py",
+      "bytes": 17034,
+      "sha256": "06afd1eaf41abdc87b77a07bd97315f0b440542a7a6796e49a7b8e602cf41ed3"
+    },
+    {
+      "path": "scripts/gen1_task_routing_v2_20261020.py",
+      "bytes": 3172,
+      "sha256": "3f1323f15b7055b6235bac73b3cf8a3f3156efc1191fd9a77ae1470bb94fd306"
+    },
+    {
+      "path": "scripts/gen1_terminal_gripper_ab_20261020.py",
+      "bytes": 10939,
+      "sha256": "a903909c1381e788d7d04585b9a743e5ece00db729aea1a630fe5f11011b1037"
+    },
+    {
       "path": "scripts/gen1_test_orbax_save_cap.py",
       "bytes": 5802,
       "sha256": "89ed2ba7fab55a41f0323d3511871a690fa43f3d8c5c1c4930c5b694df8f0e82"
+    },
+    {
+      "path": "scripts/gen1_timing_validation_summary_20261020.py",
+      "bytes": 27873,
+      "sha256": "e7697430b5553b8c1ecb9528019cd3028cad4ae9c01e03d5063f40d394d3fcf8"
     },
     {
       "path": "scripts/gen1_train_pilot.py",
@@ -735,6 +925,11 @@
       "path": "scripts/gen1_training_event_audit.py",
       "bytes": 4736,
       "sha256": "e598c1a8709d5b10745c0a6d9108e7f0728147d3263460964a3aa7a834b49f13"
+    },
+    {
+      "path": "scripts/gen1_trainset_rollout.py",
+      "bytes": 9412,
+      "sha256": "8db7c616164cdeec114d7b25693e4e4a2c42cc35755f08a55e766b05bad2e6df"
     },
     {
       "path": "scripts/gen1_validation_episode_consistency.py",
@@ -803,8 +998,8 @@
     },
     {
       "path": "scripts/robotwin_eval_harness.py",
-      "bytes": 55633,
-      "sha256": "750b3b11533b115836fea54bab1d614d29a0afd9ddcc7a9332f6411297d4517e"
+      "bytes": 55917,
+      "sha256": "75e00cdb42b6ca5921c1df01448cca6eddffd15580faae904173e46f1169f816"
     },
     {
       "path": "scripts/robotwin_eval_harness_dispatch.py",
@@ -905,6 +1100,11 @@
       "path": "scripts/robotwin_success_positive_control.py",
       "bytes": 2458,
       "sha256": "c308b279411cad34cf83e93c6a66080210bdd2e3e1218ad6195f0ecd64cf9659"
+    },
+    {
+      "path": "scripts/run_all_tasks_clean10_20261018.sh",
+      "bytes": 765,
+      "sha256": "f4f86fc74477856ec3a3b9b808ca5c28a715125197a2e926b635b70304517217"
     },
     {
       "path": "scripts/run_eval.py",
@@ -1017,6 +1217,21 @@
       "sha256": "a7fed634cb5b05b6def3db96446cb6c7504973c3be3adc9a7de23cd261c58f4d"
     },
     {
+      "path": "scripts/test_gen1_approach_replan_20261020.py",
+      "bytes": 7150,
+      "sha256": "3427c053b615b85777f6837ce5eefd51eaa6e5a6ef8c87dd9b564efc136bff7c"
+    },
+    {
+      "path": "scripts/test_gen1_approach_replan_audit_20261020.py",
+      "bytes": 2920,
+      "sha256": "271fa6df5df37407985a085ace67e9f94b29357818c65ecb33938100b97d8c0a"
+    },
+    {
+      "path": "scripts/test_gen1_control_repair_progress_audit_20261020.py",
+      "bytes": 4642,
+      "sha256": "380cc2f72c30b49da12bbd615a7581c4a6812926e16d36a2e716c302229c0ace"
+    },
+    {
       "path": "scripts/test_gen1_diagnose_pilot.py",
       "bytes": 5037,
       "sha256": "1cf5aa4cc743d928eb64beff61aafa7b45efb77a672d0187c05f5fe48612d482"
@@ -1032,6 +1247,16 @@
       "sha256": "d701aeff7127ad481160ef0f7515850ecb2c49f3479954a291bb6e83e6806537"
     },
     {
+      "path": "scripts/test_gen1_duration_controller_20261020.py",
+      "bytes": 11027,
+      "sha256": "e441cbab5664790c753e5919224f8bccc6feb5e8617fbb328fda7a90c7e9998c"
+    },
+    {
+      "path": "scripts/test_gen1_execution_horizon_ablation_20261019.py",
+      "bytes": 4770,
+      "sha256": "fb864aa0da3a63b8601035c58f3aa940dea6716eba10a6663000f7fd84b255e6"
+    },
+    {
       "path": "scripts/test_gen1_expanded_train_rollouts.py",
       "bytes": 2305,
       "sha256": "83d46c695db9b696f398b8fe759250adbc51c74a194182610684dfa20ad7a17e"
@@ -1040,6 +1265,11 @@
       "path": "scripts/test_gen1_expert_gate_diagnostic.py",
       "bytes": 11518,
       "sha256": "da3b9f89c32f72832fb3c24193e65a3ad1c269e64bc0f6b1ae4ce16f6ad80271"
+    },
+    {
+      "path": "scripts/test_gen1_expert_label_replay_20261019.py",
+      "bytes": 9032,
+      "sha256": "b4a7436c2749c0a215309284aced79b75969356450a92021bf27d10b4520167f"
     },
     {
       "path": "scripts/test_gen1_full_sampler_event_audit.py",
@@ -1087,6 +1317,11 @@
       "sha256": "a0acf0d6e3914094531c26fd3cebb648a7040541e38f0b8878b6026d2e492178"
     },
     {
+      "path": "scripts/test_gen1_phase_prediction_audit_20261019.py",
+      "bytes": 2058,
+      "sha256": "8ccaca7ef341db7995de25918f632cb1a8adc6919012d9104e98b9cb24d978e8"
+    },
+    {
       "path": "scripts/test_gen1_phase_weights.py",
       "bytes": 3193,
       "sha256": "0856ac561de3ccf105960a7453cf385cc904fca2464fb6b53049c8fd3a33e9d1"
@@ -1100,6 +1335,16 @@
       "path": "scripts/test_gen1_physical_diagnostic.py",
       "bytes": 23038,
       "sha256": "8c735cf919ad4000c4ab8bc30d7fb541368434ae693849a9dfd76397a3a5d01c"
+    },
+    {
+      "path": "scripts/test_gen1_policy_duration_repair_20261020.py",
+      "bytes": 5037,
+      "sha256": "f78649005085a3bd1406dbe0fd83d80adf0e7bdcc1ac03d8f70fea0f1d091aaf"
+    },
+    {
+      "path": "scripts/test_gen1_policy_timing_ab_20261020.py",
+      "bytes": 7042,
+      "sha256": "669e41af49a3e2f2b295768dab7e8fed8a6e07396151ed85674949b892731cfc"
     },
     {
       "path": "scripts/test_gen1_prompt_augmentation.py",
@@ -1142,6 +1387,46 @@
       "sha256": "0d473216f3a1c57989ff11869ef8820c64101954b01ea11a99564fca9cf20ce9"
     },
     {
+      "path": "scripts/test_gen1_recovery_observables_20261020.py",
+      "bytes": 1849,
+      "sha256": "17c982bf0b613d8b1c2eabef8d80a6f0079c4bef46802b06e0c493d22d40459d"
+    },
+    {
+      "path": "scripts/test_gen1_recovery_smallfit_20261020.py",
+      "bytes": 5543,
+      "sha256": "f2b6d655e44ab2b1b6a4c746ed4705d532029f38c1b320d23c89e921299a2f57"
+    },
+    {
+      "path": "scripts/test_gen1_recovery_smallfit_native_review_20261020.py",
+      "bytes": 3653,
+      "sha256": "5fd8025b22a2f94791055f4414bd0db5bfe46af87fcef51f1310e146f2ccd334"
+    },
+    {
+      "path": "scripts/test_gen1_recovery_student_eval_review_20261020.py",
+      "bytes": 3512,
+      "sha256": "025b5db0a71ef96943eb0bdf6df19898f67187198c9bbd240c6dd64961ab0f83"
+    },
+    {
+      "path": "scripts/test_gen1_recovery_suffix_dataset_20261020.py",
+      "bytes": 12612,
+      "sha256": "3f7029cd43140d0b73a78750579482cd10f09787451a7827c9335be501f107a5"
+    },
+    {
+      "path": "scripts/test_gen1_recovery_suffix_replay_20261020.py",
+      "bytes": 7026,
+      "sha256": "3e88425b78a15fb875dbc043787f768082559c86b570e7aa1e22854b43ca862b"
+    },
+    {
+      "path": "scripts/test_gen1_recovery_takeover_20261020.py",
+      "bytes": 11466,
+      "sha256": "ccb261d8bc4c16693d6d1d10682497902d5e1c1ee44fc2e245e4db76348ed034"
+    },
+    {
+      "path": "scripts/test_gen1_recovery_takeover_v2_20261020.py",
+      "bytes": 13204,
+      "sha256": "1e3c20534e46598047c55b5c657bc081f26d442fda6ed855e025cb869ff45fc2"
+    },
+    {
       "path": "scripts/test_gen1_replay_loader.py",
       "bytes": 2604,
       "sha256": "0a9202632f1d4fdfa48b1142b08023a7d175824ea6abd2745b35928a2561413f"
@@ -1152,6 +1437,11 @@
       "sha256": "bdc732a0da569839a8192005486eccd9f74792b3064d401a80dd13c0f8e4b63a"
     },
     {
+      "path": "scripts/test_gen1_route_confirmation_audit_20261020.py",
+      "bytes": 3501,
+      "sha256": "ba09fb86e250ccf2e40bd5cb79205c79a67cf7ab475dc123655f0c3b42691903"
+    },
+    {
       "path": "scripts/test_gen1_selective_raw_restore.py",
       "bytes": 15007,
       "sha256": "0712095f8cf8ca435e3f22ebefd903b105c1a05d3e8a0579cf0bfab27534f1e5"
@@ -1160,6 +1450,26 @@
       "path": "scripts/test_gen1_sequential_audit.py",
       "bytes": 2602,
       "sha256": "b50a36de9e4b0e1555342564259a62c54b5bcbb06469a98087011d8dc1d547d3"
+    },
+    {
+      "path": "scripts/test_gen1_task_routing_20261020.py",
+      "bytes": 9878,
+      "sha256": "61c13c5c64c3c3f81ff856adaa1f7aca9b9a167fba9a066084a62727964cd261"
+    },
+    {
+      "path": "scripts/test_gen1_task_routing_v2_review_20261020.py",
+      "bytes": 3660,
+      "sha256": "4b4fe6c32090396d9e128914de6ad7fd7ad5b104e4931a04f44d6c5db1d06dc2"
+    },
+    {
+      "path": "scripts/test_gen1_terminal_gripper_ab_20261020.py",
+      "bytes": 3646,
+      "sha256": "ad06eeb1eac54c326cd0ecbe092e94130dd198bea7d1820d0db08f0d44b94100"
+    },
+    {
+      "path": "scripts/test_gen1_timing_validation_summary_20261020.py",
+      "bytes": 6411,
+      "sha256": "896fdae6f51a17b734bb65ef7d12f54d9287ad7c9ad82286526963da7df982a8"
     },
     {
       "path": "scripts/test_gen1_training_event_audit.py",
@@ -1293,8 +1603,8 @@
     },
     {
       "path": "outputs/experiment_progress_report_20261015.md",
-      "bytes": 9968,
-      "sha256": "cf4f5a4f3db2c54afc5a4cf4879a8678572bec6b323fe92a0068539ac19d88c9"
+      "bytes": 11331,
+      "sha256": "12d88341ff4d6723d2d7cb0b97e1dab8c77939956cdc6231b7788a198321b854"
     },
     {
       "path": "outputs/gen1_official_replay_manifest_20261013.json",
