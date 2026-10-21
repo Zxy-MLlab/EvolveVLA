@@ -3,7 +3,7 @@
   "snapshot_date": "2026-10-21",
   "source_project": "/root/autodl-tmp/EvolveVLA",
   "git_repository": "https://github.com/Zxy-MLlab/EvolveVLA.git",
-  "git_commit": "816bbed502599edae92922218895131fe47004e4",
+  "git_commit": "65a0ff29b397db371d91b9119cd2f24ed2490ccc",
   "training_data_release": "data-20261015-v1",
   "training_data_release_url": "https://github.com/Zxy-MLlab/EvolveVLA/releases/tag/data-20261015-v1",
   "training_data_release_verified": "53/53 packages remote_verified; inventory SHA256 matched at publication audit",
