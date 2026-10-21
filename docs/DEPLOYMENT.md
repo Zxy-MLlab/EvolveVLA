@@ -57,6 +57,13 @@ python deploy/bootstrap.py simulation-assets
 
 模型只下载公开 Myungkyu 固定 revision 的推理权重、metadata、norm stats，逐文件比对原校验单。
 模型权重不在本 GitHub 仓库或数据 Release 内。
+
+如需复现本机保存的 24,000 步诊断候选，可另行下载公开的
+`model-gen1-lora-b64-24000-20261021` Release。该 Release 只有 450,846,720 字节的
+Orbax adapter tar，SHA256 为
+`857f919413cc3f79cb67a6c1db501e9ad1006171e53e220fb3a0bbc50c33eb6b`；解包后按
+`artifacts/gen1_model_checkpoint_20261015/step24000_adapter_manifest.json` 校验。
+它没有通过独立成功率门槛，默认路由仍使用原始 checkpoint。
 仿真资产从固定 RoboTwin 数据 revision 下载 `objects.zip`、`embodiments.zip`、`background_texture.zip`，随后配置 embodiment 路径。
 OIDN 与 Curobo 也按 `MODEL_AND_DATA.md` 固定版本准备。
 

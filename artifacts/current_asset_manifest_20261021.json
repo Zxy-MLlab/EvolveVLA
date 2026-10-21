@@ -3,9 +3,16 @@
   "snapshot_date": "2026-10-21",
   "source_project": "/root/autodl-tmp/EvolveVLA",
   "git_repository": "https://github.com/Zxy-MLlab/EvolveVLA.git",
+  "git_commit": "816bbed502599edae92922218895131fe47004e4",
   "training_data_release": "data-20261015-v1",
   "training_data_release_url": "https://github.com/Zxy-MLlab/EvolveVLA/releases/tag/data-20261015-v1",
   "training_data_release_verified": "53/53 packages remote_verified; inventory SHA256 matched at publication audit",
+  "diagnostic_model_release": "model-gen1-lora-b64-24000-20261021",
+  "diagnostic_model_release_url": "https://github.com/Zxy-MLlab/EvolveVLA/releases/tag/model-gen1-lora-b64-24000-20261021",
+  "diagnostic_model_archive": "gen1_replay_expanded_lora_b64_20261015_step24000_adapter.tar",
+  "diagnostic_model_archive_bytes": 450846720,
+  "diagnostic_model_archive_sha256": "857f919413cc3f79cb67a6c1db501e9ad1006171e53e220fb3a0bbc50c33eb6b",
+  "diagnostic_model_status": "candidate_disabled_by_independent_paired_routing_gate",
   "included_diagnostic_assets": [
     {
       "path": "artifacts/gen1_control_repair_20261020/commands.md",
@@ -166,8 +173,17 @@
       "path": "artifacts/gen1_recovery_smallfit_combined_train_20261020/validation_0600.json",
       "bytes": 2391,
       "sha256": "1de5ad83f51176737c5f332cd95bc7fcd3d09c12ea271d0c932a1afae1fa0d17"
+    },
+    {
+      "path": "artifacts/gen1_model_checkpoint_20261015/README.md",
+      "bytes": 650,
+      "sha256": "8657fc75dac3b62282e70a45f126d45bff0087ccf185c3e466a44f80eb5051bd"
+    },
+    {
+      "path": "artifacts/gen1_model_checkpoint_20261015/step24000_adapter_manifest.json",
+      "bytes": 2779,
+      "sha256": "9960eee63fc647f8af9911095d1fc10d6520f252d81dbd9a64a22e19eb99d15c"
     }
   ],
-  "checkpoint_policy": "Public Myungkyu base checkpoint is downloaded by deploy/bootstrap.py model. Local historical and LoRA checkpoints are not committed or released; the current 24k candidate remains disabled by route confirmation.",
-  "reproducibility": "Clone the repository at this snapshot, run deploy/bootstrap.py upstream/environments/model/simulation-assets, restore data-20261015-v1 with deploy/data_release.py, then run deploy/bootstrap.py verify and deploy/start_experiment.py."
+  "reproducibility": "Clone the repository at this snapshot, run deploy/bootstrap.py upstream/environments/model/simulation-assets, restore data-20261015-v1 with deploy/data_release.py, then run deploy/bootstrap.py verify and deploy/start_experiment.py. The optional model release requires the fixed Myungkyu base model and original norm stats."
 }

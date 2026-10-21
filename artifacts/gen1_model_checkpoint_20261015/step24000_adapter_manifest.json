@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "checkpoint": "gen1_replay_expanded_lora_b64_20261015",
+  "step": 24000,
+  "format": "OpenPI JAX Orbax adapter_state",
+  "source_root": "/root/autodl-tmp/EvolveVLA/checkpoints/gen1_replay_expanded_lora_b64_20261015/24000",
+  "base_model": "Myungkyu/pi0_5_jax_robotwin_vanilla_b128_60k",
+  "base_revision": "37e10d7f4f49149e2ce5e08a77b07f228a84322f",
+  "status": "diagnostic_candidate_disabled",
+  "files": [
+    {
+      "path": "adapter_state/_CHECKPOINT_METADATA",
+      "bytes": 258,
+      "sha256": "c68b08c041e93e868cc46c30f3805b61f661664ab4b64062ececaaa483d3a1f3"
+    },
+    {
+      "path": "adapter_state/_METADATA",
+      "bytes": 33372,
+      "sha256": "c35694c22ee22c4feb9edb4da770c14255a9de0d6ec2d84e79409f07b6538cb2"
+    },
+    {
+      "path": "adapter_state/_sharding",
+      "bytes": 15965,
+      "sha256": "6dc6a8a2880e40890d2f7bbfbf44d30bcdab6118d4bd8d2e1f108e3ed9c604ec"
+    },
+    {
+      "path": "adapter_state/array_metadatas/process_0",
+      "bytes": 11867,
+      "sha256": "1ff2368b57a28f30c39a20c58b621cfd5fc2c3607d167342e7ca7e2a3e58bbcf"
+    },
+    {
+      "path": "adapter_state/d/beedef2e5a7a06d5ab604930639b507b",
+      "bytes": 1542,
+      "sha256": "609a001dff8df245f8bb38893efcff29a121b159150d7e2b6e484b168d2328e1"
+    },
+    {
+      "path": "adapter_state/manifest.ocdbt",
+      "bytes": 117,
+      "sha256": "62759683f78f7533e97c558bedbba27d3eb5afedb2b2c4f7e88fd986d5cdc557"
+    },
+    {
+      "path": "adapter_state/ocdbt.process_0/d/05f9b836f31e7e76d67f439c5a1a35d5",
+      "bytes": 219,
+      "sha256": "0d32284897ae63167ba11a53dacf4faca75f323168703c7c1ad5a7ca39f0d052"
+    },
+    {
+      "path": "adapter_state/ocdbt.process_0/d/2633735dc826928c03253ab77f019bc4",
+      "bytes": 732,
+      "sha256": "3fae6b7591bdadd72aac2eeb2dbf13736397fd42307582b706bd463a3223cd05"
+    },
+    {
+      "path": "adapter_state/ocdbt.process_0/d/4075986de206c0d19f2d7d22afa2429f",
+      "bytes": 228926460,
+      "sha256": "40cf2bc021fa80dad71df0dd282b36319ab51ce5949412902dc1cbb38e770fd5"
+    },
+    {
+      "path": "adapter_state/ocdbt.process_0/d/8c3d38b1c0949900708b75f0b4d8580d",
+      "bytes": 219656823,
+      "sha256": "7ecb3a7d394ea9421ed18b40e7a31b1298fefd987da1aa67066c54985f09c105"
+    },
+    {
+      "path": "adapter_state/ocdbt.process_0/d/9f06d91d31e50f4c2c4760e1922f2472",
+      "bytes": 2181991,
+      "sha256": "15fbe111295709c5306f7821348ae7bbfb9452d263d8a8a0995863758150f764"
+    },
+    {
+      "path": "adapter_state/ocdbt.process_0/manifest.ocdbt",
+      "bytes": 312,
+      "sha256": "c121dc8841aa3ccf59df8be339e212a0a7fdccd5b05e1aab8b14a53829b620b1"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 724,
+      "sha256": "8065f39e82762986f4930f2aded366365af4d807edb33b8cba12aa25a3dec454"
+    }
+  ]
+}
